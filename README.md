@@ -70,15 +70,20 @@ O cronograma inicial foi proposto conforme imagens abaixo:
 07/09 a 26/09	sprint 0
 	Coleta da lista de requisitos por user stories
 	
-	Construção do Product Backlog
+	Briefing
 	
-	Protótipo no Figma
+	Product Backlog
 	
-	Sistema de Login de 6 usuários
+	Wireframe com Figma
+	
+	Modelagem de dados
 
 27/set	sprint review 0
 
 28/09 a 17/10	sprint 1
+	
+	Sistema de Login
+	
 	Troca de senha de acesso do motorista
 	
 	Troca de senha do admistrativo
@@ -88,15 +93,17 @@ O cronograma inicial foi proposto conforme imagens abaixo:
 	Troca senha de administrativo - empresa filial
 	
 	"Perfis de acesso vinculados às funcionalidades.
-	
-Possibilidades: leitura, escrita, cadastro, acesso total."
-	Cadastro do veículo por empresa filial
-	
-	Exclusão de cadastro do veículo
+	Possibilidades: leitura, escrita, cadastro, acesso total."
+
 
 18/out	sprint review 1
 
 19/10 a 07/11	sprint 2
+	
+	Cadastro do veículo por empresa filial
+	
+	Exclusão de cadastro do veículo
+
 	Ambiente de cadastro do motorista
 	
 	Exclusão de cadastro do motorista
