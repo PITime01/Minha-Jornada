@@ -16,34 +16,24 @@ Portanto este software consolidará registros de acordo com o cumprimento da lei
 Para motoristas de transporte de mercadorias e empresa de logística, que querem o registro e acompanhamento da jornada de trabalho do motorista, o Minha Jornada é um software que oferece registro da jornada de trabalho ajustando-se ao acordo coletivo do usuário e permite controle e visualização dos registros pela empresa de logística, assim como permite coletar dados para a folha de pagamento. 
 
 # Escopo da Solução 
-Product Backlog		
-número	Item	Business Value
-1	6 logins de usuários: Administrador, administrativo,administrativo-filial, financeiro, motorista e visitante.	essencial
-2	Protótipo com Figma	essencial
-3	Troca de senha de acesso do motorista	essencial
-4	Troca de senha do admistrativo	essencial
-5	Troca senha de financeiro	essencial
-6	Troca senha de administrativo - empresa filial	essencial
-7	"Perfis de acesso vinculados às funcionalidades.
-Possibilidades: leitura, escrita, cadastro, acesso total."	essencial
-8	Cadastro do veículo por empresa filial	essencial
-9	Exclusão de cadastro do veículo	essencial
-10	Ambiente de cadastro do motorista	essencial
-11	Exclusão de cadastro do motorista	essencial
-12	Interface de registro de usuário ajustável conforme acordo coletivo da filial do motorista.	importante
-13	Escala dos motoristas	essencial
-14	Registro de alertas	importante
-15	Registro de status	importante
-16	Software acessível por Web	desejável
-17	Linguagem Java JDK com ORM Hibernate	essencial
-18	Banco de dados relacional - Postgres	essencial
-19	Documentações: Especificação, Plano de Teste e Manual do Usuário.	essencial
-20	Repositório Git	essencial
-21	Uso do Fork para gerenciamento de interface do Git	desejável
-22	Banco de dados de filiais de sindicato	importante
-23	Visualização de total de banco de horas do motorista	importante
-24	Visualização de total de hora extra do motorista	importante
-
+|Necessidades|Categorias
+| --- | --- |
+|1.    5 usuários: Administrador, administrativo, financeiro, motorista e visitante. |essencial |
+|2.    Perfis de acesso vinculados às funcionalidades.Possibilidades: leitura, escrita, cadastro, acesso total. |essencial |
+|3.    Cadastro do veículo por empresa filial |essencial |
+|4.   Interface de registro de usuário austável conforme acordo coletivo da filial do motorista. |essencial |
+|6.   Ambiente de cadastro do motorista|essencial |
+|7.   Escala dos motoristas |essencial |
+|8.   Registro de alertas |essencial |
+|9.   Registro de status do motorista |essencial |
+|10.   Software acessível por Web |desejável|
+|11.   Linguagem Java JDK com ORM Hibernate |essencial |
+|12.   Banco de dados relacional - Postgres |essencial |
+|13.   Documentações: Especificação, Plano de Teste e Manual do Usuário. |essencial |
+|14.   Repositório Git |essencial |
+|15.   Uso do Fork para gerencimento de interface do Git |desejável |
+|16.   Banco de dados de filiais de sindicato |importante |
+|17.   Protótipo com Figma |desejável |
 
 # Principais deliverables 
 Interface com permissões e visualizações para perfis diferentes 
