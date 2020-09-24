@@ -52,4 +52,60 @@ O acesso se limita à locais com rede, podendo ser futuramente atualizado para a
 O sistema não verifica geolocalização ou se o veículo está ligado. 
 
 # Descrição dos Usuários 
-Os usuários previstos estão descritos conforme imagem abaixo: 
+Os usuários previstos estão descritos abaixo: 
+
+Visitante: Somente visualiza página inicial, sem permissões de acesso.
+
+Motorista: Registra sua jornada de trabalho contemplando hora extra, repouso e tempo trabalhado. Possui permissão de acesso para leitura e escrita destes dados para seu login.
+
+Administrador: Possui permissão de conceder acessos e realizar alterações em todos os registros. Sendo estes de escrita e leitura.
+
+Administrativo: Possui permissão para cadastrar dados do motorista ou do veículo. Sendo estes de leitura e escrita.
+Não possui acesso para alterar outros registros, mas tem acesso de leitura.
+
+Financeiro: Possui permissão de coletar dados da jornada de trabalho, possuindo permissão de leitura dos registros de jornada de trabalho.
+Não possui acesso aos cadastros. Sem leitura e escrita.
+# Cronograma Inicial
+O cronograma inicial foi proposto conforme imagens abaixo:
+07/09 a 26/09	sprint 0
+	Coleta da lista de requisitos por user stories
+	Construção do Product Backlog
+	Protótipo no Figma
+	Sistema de Login de 6 usuários
+
+27/set	sprint review 0
+
+28/09 a 17/10	sprint 1
+	Troca de senha de acesso do motorista
+	Troca de senha do admistrativo
+	Troca senha de financeiro
+	Troca senha de administrativo - empresa filial
+	"Perfis de acesso vinculados às funcionalidades.
+Possibilidades: leitura, escrita, cadastro, acesso total."
+	Cadastro do veículo por empresa filial
+	Exclusão de cadastro do veículo
+
+18/out	sprint review 1
+
+19/10 a 07/11	sprint 2
+	Ambiente de cadastro do motorista
+	Exclusão de cadastro do motorista
+	Interface de registro de usuário ajustável conforme acordo coletivo da filial do motorista.
+	Escala dos motoristas
+
+08/nov	sprint review 2
+
+09/11 a 28/11	sprint 3
+	Status de usuários
+	Registro de alertas
+	Banco de dados de filiais de sindicato
+	Visualização de total de banco de horas do motorista
+	Visualização de total de hora extra do motorista
+	Manual do usuário
+	Documento de plano de teste
+	Documento de especificação
+
+29/nov	sprint review 3
+
+30/11 a 06/12	Entrega do produto
+	
