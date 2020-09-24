@@ -1,5 +1,16 @@
 # Projeto Integrador - Fatec São José dos Campos
 
+# Disciplinas integradas
+
+### Sistemas de Informações
+Prof. Claudio Etelvino de Lima
+### Engenharia de Software
+Profª. Juliana Forin Pasquini Martiniz
+
+Prof. Giuliano Araujo Bertoti
+### Linguagem de Programação
+Prof. Reinaldo Gen Ichiro Arakaki
+
 # Time
 Barbara Bidoia Bidetti - PO
 
@@ -29,26 +40,6 @@ Portanto este software consolidará registros de acordo com o cumprimento da lei
 
 # Visão da Solução  
 Para motoristas de transporte de mercadorias e empresa de logística, que querem o registro e acompanhamento da jornada de trabalho do motorista, o Minha Jornada é um software que oferece registro da jornada de trabalho ajustando-se ao acordo coletivo do usuário e permite controle e visualização dos registros pela empresa de logística, assim como permite coletar dados para a folha de pagamento. 
-
-# Escopo da Solução 
-|Necessidades|Categorias
-| --- | --- |
-|1.    5 usuários: Administrador, administrativo, financeiro, motorista e visitante. |essencial |
-|2.    Perfis de acesso vinculados às funcionalidades.Possibilidades: leitura, escrita, cadastro, acesso total. |essencial |
-|3.    Cadastro do veículo por empresa filial |essencial |
-|4.   Interface de registro de usuário austável conforme acordo coletivo da filial do motorista. |essencial |
-|6.   Ambiente de cadastro do motorista|essencial |
-|7.   Escala dos motoristas |essencial |
-|8.   Registro de alertas |essencial |
-|9.   Registro de status do motorista |essencial |
-|10.   Software acessível por Web |desejável|
-|11.   Linguagem Java JDK com ORM Hibernate |essencial |
-|12.   Banco de dados relacional - Postgres |essencial |
-|13.   Documentações: Especificação, Plano de Teste e Manual do Usuário. |essencial |
-|14.   Repositório Git |essencial |
-|15.   Uso do Fork para gerencimento de interface do Git |desejável |
-|16.   Banco de dados de filiais de sindicato |importante |
-|17.   Protótipo com Figma |desejável |
 
 # Principais deliverables 
 Interface com permissões e visualizações para perfis diferentes 
@@ -87,5 +78,7 @@ Não possui acesso aos cadastros. Sem leitura e escrita.
 # Cronograma Inicial
 O cronograma inicial foi proposto conforme imagens abaixo:
 
-![Cronograma](https://user-images.githubusercontent.com/71779649/94166002-33a5ad00-fe61-11ea-945f-d7e367ab8c73.JPG)
+![Cronograma](https://user-images.githubusercontent.com/71779649/94167908-6c468600-fe63-11ea-9ce1-b9428b6b3e9c.JPG)
+
+
 	
