@@ -69,40 +69,59 @@ Não possui acesso aos cadastros. Sem leitura e escrita.
 O cronograma inicial foi proposto conforme imagens abaixo:
 07/09 a 26/09	sprint 0
 	Coleta da lista de requisitos por user stories
+	
 	Construção do Product Backlog
+	
 	Protótipo no Figma
+	
 	Sistema de Login de 6 usuários
 
 27/set	sprint review 0
 
 28/09 a 17/10	sprint 1
 	Troca de senha de acesso do motorista
+	
 	Troca de senha do admistrativo
+	
 	Troca senha de financeiro
+	
 	Troca senha de administrativo - empresa filial
+	
 	"Perfis de acesso vinculados às funcionalidades.
+	
 Possibilidades: leitura, escrita, cadastro, acesso total."
 	Cadastro do veículo por empresa filial
+	
 	Exclusão de cadastro do veículo
 
 18/out	sprint review 1
 
 19/10 a 07/11	sprint 2
 	Ambiente de cadastro do motorista
+	
 	Exclusão de cadastro do motorista
+	
 	Interface de registro de usuário ajustável conforme acordo coletivo da filial do motorista.
+	
 	Escala dos motoristas
 
 08/nov	sprint review 2
 
 09/11 a 28/11	sprint 3
 	Status de usuários
+	
 	Registro de alertas
+	
 	Banco de dados de filiais de sindicato
+	
 	Visualização de total de banco de horas do motorista
+	
 	Visualização de total de hora extra do motorista
+	
 	Manual do usuário
+	
 	Documento de plano de teste
+	
 	Documento de especificação
 
 29/nov	sprint review 3
