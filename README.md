@@ -1,3 +1,18 @@
+# Projeto Integrador - Fatec São José dos Campos
+
+# Time
+Barbara Bidoia Bidetti - PO
+
+Luis Gabriel Verola Santos - Scrum Master
+
+Carolina Margiotti de Abreu - DEV Team
+
+Davi das Neves Machado - DEV Team
+
+Henrique Erzinger Dousseau - DEV Team
+
+José Alberto Martins de França - DEV Team
+
 # Minha-Jornada
 Para motoristas de transporte de mercadorias e empresa de logística, que querem o registro e acompanhamento da jornada de trabalho do motorista, o Minha Jornada é um software que oferece registro da jornada de trabalho ajustando-se ao acordo coletivo do usuário e permite controle e visualização dos registros pela empresa de logística, assim como permite coletar dados para a folha de pagamento. 
 
