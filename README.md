@@ -64,13 +64,15 @@ Os usuários previstos estão descritos conforme imagem abaixo:
 
 ### Detalhamento das funções dos perfis: 
 
-Visitante: Somente visualiza página inicial, sem permissões de acesso.
 
 Motorista: Registra sua jornada de trabalho contemplando hora extra, repouso e tempo trabalhado. Possui permissão de acesso para leitura e escrita destes dados para seu login.
 
 Administrador: Possui permissão de conceder acessos e realizar alterações em todos os registros. Sendo estes de escrita e leitura.
 
-Administrativo: Possui permissão para cadastrar dados do motorista ou do veículo. Sendo estes de leitura e escrita.
+Administrativo-gestor: Possui permissão para cadastrar dados do motorista ou do veículo. Sendo estes de leitura e escrita.
+Não possui acesso para alterar outros registros, mas tem acesso de leitura.
+
+Administrativo-filial: Possui permissão para cadastrar dados do veículo. Sendo estes de leitura e escrita.
 Não possui acesso para alterar outros registros, mas tem acesso de leitura.
 
 Financeiro: Possui permissão de coletar dados da jornada de trabalho, possuindo permissão de leitura dos registros de jornada de trabalho.
