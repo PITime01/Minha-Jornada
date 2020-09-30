@@ -61,6 +61,7 @@ O sistema não verifica geolocalização ou se o veículo está ligado.
 Os usuários previstos estão descritos conforme imagem abaixo: 
 
 ![User Roles](https://user-images.githubusercontent.com/71779649/94165287-6e5b1580-fe60-11ea-8af3-89d622cda289.jpg)
+![User Roles](https://github.com/PITime01/Minha-Jornada/blob/master/User%20Roles.jpg?raw=true)
 
 ### Detalhamento das funções dos perfis: 
 
