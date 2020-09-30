@@ -82,5 +82,7 @@ O cronograma inicial foi proposto conforme imagens abaixo:
 
 ![sprint 0](https://user-images.githubusercontent.com/71779649/94697007-0e57e980-030e-11eb-8d80-5cdc226ac283.JPG)
 
+# Prévia de Desenvolvimento de Login
 
+https://github.com/PITime01/Minha-Jornada/blob/master/Previa%20Login.mp4?raw=true
 	
