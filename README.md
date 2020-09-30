@@ -84,6 +84,6 @@ O cronograma inicial foi proposto conforme imagens abaixo:
 
 # Prévia de Desenvolvimento de Login
 
-https://github.com/PITime01/Minha-Jornada/blob/master/Previa%20Login.mp4?raw=true
+[![Desenvolvimento inicial da tela de login](http://img.youtube.com/vi/XRCfJSJqxVg/0.jpg)](http://www.youtube.com/watch?v=XRCfJSJqxVg "Prévia de Login")
 	
 
