@@ -86,20 +86,4 @@ O cronograma inicial foi proposto conforme imagens abaixo:
 
 https://github.com/PITime01/Minha-Jornada/blob/master/Previa%20Login.mp4?raw=true
 	
-<html>
-<head>
-<title>Inserindo vídeos do YouTube em uma página HTML</title>
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
-</head>
-<body>
-<p>Meu vídeo preferido</p>
-	<object style="height: 390px; width: 640px">
-		<param name="movie" value="http://www.youtube.com/v/IUsV--AhxrM?version=3&feature=player_detailpage">
-		<param name="allowFullScreen" value="true">
-		<param name="allowScriptAccess" value="always">
-		<embed src="https://www.youtube.com/embed/XRCfJSJqxVg" type="application/x-shockwave-flash" allowfullscreen="true" allowScriptAccess="always" width="640" height="360">
-	</object>
-	
-	<object style="height: 390px; width: 640px">
-</body>
-</html>
+
