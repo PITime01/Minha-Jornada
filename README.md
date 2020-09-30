@@ -60,7 +60,7 @@ O sistema não verifica geolocalização ou se o veículo está ligado.
 # Descrição dos Usuários 
 Os usuários previstos estão descritos conforme imagem abaixo: 
 
-![USER ROLES](https://user-images.githubusercontent.com/71779649/94165287-6e5b1580-fe60-11ea-8af3-89d622cda289.jpg)
+![User Roles](https://user-images.githubusercontent.com/71779649/94165287-6e5b1580-fe60-11ea-8af3-89d622cda289.jpg)
 
 ### Detalhamento das funções dos perfis: 
 
