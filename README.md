@@ -80,7 +80,7 @@ Não possui acesso aos cadastros. Sem leitura e escrita.
 # Cronograma Inicial
 O cronograma inicial foi proposto conforme imagens abaixo:
 
-![Cronograma](https://user-images.githubusercontent.com/71779649/94167908-6c468600-fe63-11ea-9ce1-b9428b6b3e9c.JPG)
+![sprint 0](https://user-images.githubusercontent.com/71779649/94697007-0e57e980-030e-11eb-8d80-5cdc226ac283.JPG)
 
 
 	
