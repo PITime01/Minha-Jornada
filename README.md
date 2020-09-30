@@ -86,3 +86,4 @@ O cronograma inicial foi proposto conforme imagens abaixo:
 
 https://github.com/PITime01/Minha-Jornada/blob/master/Previa%20Login.mp4?raw=true
 	
+<iframe width="560" height="315" src="https://www.youtube.com/embed/XRCfJSJqxVg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
