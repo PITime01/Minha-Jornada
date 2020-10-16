@@ -27,8 +27,7 @@
 * Henrique Erzinger Dousseau - DEV Team
 
 * Luis Gabriel Verola Santos - DEV Team
-
-![O que é o Minha Jornada?](https://github.com/PITime01/Minha-Jornada/blob/master/README.md#minha-jornada)
+[O que é o Minha Jornada?](https://github.com/PITime01/Minha-Jornada/blob/master/README.md#minha-jornada)
 
 
 # Minha-Jornada
