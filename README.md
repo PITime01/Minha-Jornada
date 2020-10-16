@@ -32,9 +32,7 @@
 
 
 # Minha-Jornada
-Para motoristas de transporte de mercadorias e empresa de logística, que querem o registro e acompanhamento da jornada de trabalho do motorista, o Minha Jornada é um software que oferece registro da jornada de trabalho ajustando-se ao acordo coletivo do usuário e permite controle e visualização dos registros pela empresa de logística, assim como permite coletar dados para a folha de pagamento. 
 
-# Motivação
 No Brasil o sistema rodoviário é responsável por mais de 75% do escoamento de mercadorias. Este cenário, suscita uma demanda relevante de motoristas que percorrem as regiões do Brasil transportando as mesmas. 
 
 Diante da demanda frequente de motoristas percorrerem grandes distâncias por um longo período para realizarem entregas, é necessário que haja um meio de registro de sua jornada de trabalho, repouso, horário de alimentação e hora extra. 
