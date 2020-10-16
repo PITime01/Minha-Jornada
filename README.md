@@ -1,5 +1,5 @@
 
-[![Capa](https://github.com/PITime01/Minha-Jornada/blob/master/documentos/Capa.gif)
+![Capa](https://github.com/PITime01/Minha-Jornada/blob/master/documentos/Capa.gif)
 
 # Disciplina Focal Point: Sistemas de Informações
 * M2 (Master dos Masters): Prof. Walmir Duque
@@ -28,10 +28,11 @@
 
 * Luis Gabriel Verola Santos - DEV Team
 
-[O que é o Minha Jornada?](https://github.com/PITime01/Minha-Jornada/blob/master/README.md#minha-jornada)
+*[O que é o Minha Jornada?](https://github.com/PITime01/Minha-Jornada/blob/master/README.md#minha-jornada)
 
 
 # Minha-Jornada
+![minhajornada](https://github.com/PITime01/Minha-Jornada/blob/master/documentos/minhajornada.png)
 
 No Brasil o sistema rodoviário é responsável por mais de 75% do escoamento de mercadorias. Este cenário, suscita uma demanda relevante de motoristas que percorrem as regiões do Brasil transportando as mesmas. 
 
