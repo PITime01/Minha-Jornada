@@ -28,13 +28,13 @@
 
 * Luis Gabriel Verola Santos - DEV Team
 
-*[O que é o Minha Jornada?](https://github.com/PITime01/Minha-Jornada/blob/master/README.md#minha-jornada)
+* [O que é o Minha Jornada?](https://github.com/PITime01/Minha-Jornada/blob/master/README.md#minha-jornada)
 
 
 # Minha-Jornada
 ![minhajornada](https://github.com/PITime01/Minha-Jornada/blob/master/documentos/minhajornada.png)
 
-No Brasil o sistema rodoviário é responsável por mais de 75% do escoamento de mercadorias. Este cenário, suscita uma demanda relevante de motoristas que percorrem as regiões do Brasil transportando as mesmas. 
+No Brasil o sistema rodoviário é responsável por mais de 60% do escoamento de mercadorias. Este cenário, suscita uma demanda relevante de motoristas que percorrem as regiões do Brasil transportando as mesmas. 
 
 Diante da demanda frequente de motoristas percorrerem grandes distâncias por um longo período para realizarem entregas, é necessário que haja um meio de registro de sua jornada de trabalho, repouso, horário de alimentação e hora extra. 
 
