@@ -1,4 +1,4 @@
-# Projeto Integrador - Fatec São José dos Campos
+
 [![Capa](https://github.com/PITime01/Minha-Jornada/blob/master/documentos/Capa.gif)
 
 # Disciplinas integradas
