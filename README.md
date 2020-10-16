@@ -7,11 +7,11 @@
 
 ## Disciplinas Integradas
 
-   ### Engenharia de Software
+   *### Engenharia de Software
    Profª. Juliana Forin Pasquini Martiniz
    Prof. Giuliano Araujo Bertoti
 
-   ### Linguagem de Programação
+  * ### Linguagem de Programação
    Prof. Reinaldo Gen Ichiro Arakaki
 
 # Dev Team
