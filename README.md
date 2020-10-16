@@ -1,29 +1,31 @@
 
 [![Capa](https://github.com/PITime01/Minha-Jornada/blob/master/documentos/Capa.gif)
 
-# Disciplinas integradas
+# Disciplina Focal Point: Sistemas de Informações
+* M2 (Master dos Masters): Prof. Walmir Duque
+* P2 (PO dos PO´s): Prof. Claudio Lima
 
-### Sistemas de Informações
-Prof. Claudio Etelvino de Lima
-### Engenharia de Software
-Profª. Juliana Forin Pasquini Martiniz
+## Disciplinas Integradas
 
-Prof. Giuliano Araujo Bertoti
-### Linguagem de Programação
-Prof. Reinaldo Gen Ichiro Arakaki
+   ### Engenharia de Software
+   Profª. Juliana Forin Pasquini Martiniz
+   Prof. Giuliano Araujo Bertoti
 
-# Time
-Barbara Bidoia Bidetti - PO
+   ### Linguagem de Programação
+   Prof. Reinaldo Gen Ichiro Arakaki
 
-Luis Gabriel Verola Santos - Scrum Master
+# Dev Team
+* Barbara Bidoia Bidetti - PO
 
-Carolina Margiotti de Abreu - DEV Team
+* José Alberto Martins de França - Scrum Master
 
-Davi das Neves Machado - DEV Team
+* Carolina Margiotti de Abreu - DEV Team
 
-Henrique Erzinger Dousseau - DEV Team
+* Davi das Neves Machado - DEV Team
 
-José Alberto Martins de França - DEV Team
+* Henrique Erzinger Dousseau - DEV Team
+
+* Luis Gabriel Verola Santos - DEV Team
 
 # Minha-Jornada
 Para motoristas de transporte de mercadorias e empresa de logística, que querem o registro e acompanhamento da jornada de trabalho do motorista, o Minha Jornada é um software que oferece registro da jornada de trabalho ajustando-se ao acordo coletivo do usuário e permite controle e visualização dos registros pela empresa de logística, assim como permite coletar dados para a folha de pagamento. 
