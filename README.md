@@ -107,7 +107,7 @@ Os usuários previstos estão descritos conforme imagem abaixo:
 ![Equipe RH](https://github.com/PITime01/Minha-Jornada/blob/master/imagens/USER%20STORIES/Equipe%20RH_1.jpg)
 
 # Story Card
-![STORY CARD](https://github.com/PITime01/Minha-Jornada/blob/master/documentos/STORY%20CARDS.gif)
+
 
 # Prévia de Desenvolvimento de Login
 
