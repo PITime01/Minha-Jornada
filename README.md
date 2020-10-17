@@ -58,7 +58,7 @@ O Minha Jornada é um software que oferece registro da jornada de trabalho do mo
 * Ajusta a jornada de trabalho com o acordo coletivo sindical
 * Permite registro dos veículos utilizados para transporte
 * Possui sistema de registros de alertas
-* Estrai daodos hora extra e banco de horas para folha de pagamento
+* Extrai dados hora extra e banco de horas para folha de pagamento
 
 # Principais deliverables 
 * Interface de login com permissões e visualizações para perfis diferentes 
