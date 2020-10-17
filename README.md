@@ -97,7 +97,7 @@ Os usuários previstos estão descritos conforme imagem abaixo:
 * Equipe RH: Possui permissão de coletar dados da jornada de trabalho de modo a gerar a folha de pagamento.
 
 # User Stories
-[# User Stories](https://github.com/PITime01/Minha-Jornada/tree/master/imagens/USER%20STORIES)
+[User Stories](https://github.com/PITime01/Minha-Jornada/tree/master/imagens/USER%20STORIES)
 ![Motorista_1](https://github.com/PITime01/Minha-Jornada/blob/master/imagens/USER%20STORIES/motorista_1.jpg)
 ![Motorista_2](https://github.com/PITime01/Minha-Jornada/blob/master/imagens/USER%20STORIES/motorista_2.jpg)
 ![Administrador_1](https://github.com/PITime01/Minha-Jornada/blob/master/imagens/USER%20STORIES/administrador_1.jpg)
@@ -112,8 +112,9 @@ Os usuários previstos estão descritos conforme imagem abaixo:
 
 # Artefatos e Tecnologias
 
-[![Artefatos e Tecnologias](https://github.com/PITime01/Minha-Jornada/blob/master/documentos/artefatos%20e%20tecnologias.gif)
+![Artefatos e Tecnologias](https://github.com/PITime01/Minha-Jornada/blob/master/documentos/artefatos%20e%20tecnologias.gif)
 
+# Cronograma de Entegras
 |Data|Entrega|
 |-----|--------|
 |27/09|SPRINT 0|
@@ -123,9 +124,9 @@ Os usuários previstos estão descritos conforme imagem abaixo:
 
 # Prévia de Desenvolvimento de Login
 
-[![Desenvolvimento inicial da tela de login](http://img.youtube.com/vi/XRCfJSJqxVg/0.jpg)](http://www.youtube.com/watch?v=XRCfJSJqxVg "Prévia de Login")
+![Desenvolvimento inicial da tela de login](http://img.youtube.com/vi/XRCfJSJqxVg/0.jpg)](http://www.youtube.com/watch?v=XRCfJSJqxVg "Prévia de Login")
 
 # Minha Jornada - sprint 0
-[![Sprint 0](http://img.youtube.com/vi/2XOPj9oY2UQ/0.jpg)](http://www.youtube.com/watch?v=2XOPj9oY2UQ "Minha Jornada")
+![Sprint 0](http://img.youtube.com/vi/2XOPj9oY2UQ/0.jpg)](http://www.youtube.com/watch?v=2XOPj9oY2UQ "Minha Jornada")
 	
 
