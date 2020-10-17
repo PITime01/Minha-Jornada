@@ -37,6 +37,8 @@
 * [User Roles](https://github.com/PITime01/Minha-Jornada/blob/master/README.md#user-roles)
 * [User Stories](https://github.com/PITime01/Minha-Jornada/blob/master/README.md#user-stories)
 * [story Card](https://github.com/PITime01/Minha-Jornada/blob/master/README.md#story-card)
+* [Artefatos e Tecnologias](https://github.com/PITime01/Minha-Jornada#artefatos-e-tecnologias)
+* [Cronograma de Entregas](https://github.com/PITime01/Minha-Jornada#cronograma-de-entegras)
 
 
 # Minha-Jornada
@@ -114,7 +116,7 @@ Os usuários previstos estão descritos conforme imagem abaixo:
 
 ![Artefatos e Tecnologias](https://github.com/PITime01/Minha-Jornada/blob/master/documentos/artefatos%20e%20tecnologias.gif)
 
-# Cronograma de Entegras
+# Cronograma de Entregas
 |Data|Entrega|
 |-----|--------|
 |27/09|[SPRINT 0](https://github.com/PITime01/Minha-Jornada/blob/master/SPRINT0/sprint.md)|
