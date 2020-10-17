@@ -94,12 +94,14 @@ Os usuários previstos estão descritos conforme imagem abaixo:
 
 * Equipe RH: Possui permissão de coletar dados da jornada de trabalho de modo a gerar a folha de pagamento.
 
-# Product Backlog
-O cronograma inicial foi proposto conforme imagens abaixo:
-
-![Product Backlog](https://github.com/PITime01/Minha-Jornada/blob/master/documentos/Product%20Backlog.JPG)
-
 # User Stories
+![Motorista_1](https://github.com/PITime01/Minha-Jornada/blob/master/imagens/USER%20STORIES/motorista_1.jpg)
+![Motorista_2](https://github.com/PITime01/Minha-Jornada/blob/master/imagens/USER%20STORIES/motorista_2.jpg)
+![Administrador_1](https://github.com/PITime01/Minha-Jornada/blob/master/imagens/USER%20STORIES/administrador_1.jpg)
+![Administrador_2](https://github.com/PITime01/Minha-Jornada/blob/master/imagens/USER%20STORIES/administrador_2.jpg)
+![Administrador Gestor_1](https://github.com/PITime01/Minha-Jornada/blob/master/imagens/USER%20STORIES/administrador%20gestor_1.jpg)
+![Administrador Gestor_2](https://github.com/PITime01/Minha-Jornada/blob/master/imagens/USER%20STORIES/administrador%20gestor_2.jpg)
+![Equipe RH](https://github.com/PITime01/Minha-Jornada/blob/master/imagens/USER%20STORIES/Equipe%20RH_1.jpg)
 
 # Prévia de Desenvolvimento de Login
 
