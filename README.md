@@ -94,10 +94,12 @@ Os usuários previstos estão descritos conforme imagem abaixo:
 
 * Equipe RH: Possui permissão de coletar dados da jornada de trabalho de modo a gerar a folha de pagamento.
 
-# Cronograma Inicial
+# Product Backlog
 O cronograma inicial foi proposto conforme imagens abaixo:
 
-![sprint 0](https://user-images.githubusercontent.com/71779649/94697007-0e57e980-030e-11eb-8d80-5cdc226ac283.JPG)
+![Product Backlog](https://github.com/PITime01/Minha-Jornada/blob/master/documentos/Product%20Backlog.JPG)
+
+# User Stories
 
 # Prévia de Desenvolvimento de Login
 
