@@ -36,6 +36,7 @@
 * [Limites e Restrições da Solução](https://github.com/PITime01/Minha-Jornada/blob/master/README.md#limites-e-restri%C3%A7%C3%B5es-da-solu%C3%A7%C3%A3o)
 * [User Roles](https://github.com/PITime01/Minha-Jornada/blob/master/README.md#user-roles)
 * [User Stories](https://github.com/PITime01/Minha-Jornada/blob/master/README.md#user-stories)
+* [story Card](https://github.com/PITime01/Minha-Jornada/blob/master/README.md#story-card)
 
 
 # Minha-Jornada
