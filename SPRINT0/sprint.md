@@ -15,3 +15,8 @@
 
 # Requisitos atendidos
 Requisito 2 - Protótipo Figma
+
+# Valor da Sprint 0
+* Levantamento de requisitos
+* Possibilitar visualização de modelo do software pelo cliente
+* Analisar complexidade da realização dos itens
