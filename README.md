@@ -105,6 +105,9 @@ Os usuários previstos estão descritos conforme imagem abaixo:
 ![Administrador Gestor_2](https://github.com/PITime01/Minha-Jornada/blob/master/imagens/USER%20STORIES/administrador%20gestor_2.jpg)
 ![Equipe RH](https://github.com/PITime01/Minha-Jornada/blob/master/imagens/USER%20STORIES/Equipe%20RH_1.jpg)
 
+# Story Card
+
+
 # Prévia de Desenvolvimento de Login
 
 [![Desenvolvimento inicial da tela de login](http://img.youtube.com/vi/XRCfJSJqxVg/0.jpg)](http://www.youtube.com/watch?v=XRCfJSJqxVg "Prévia de Login")
