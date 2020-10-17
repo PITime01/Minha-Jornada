@@ -28,3 +28,9 @@ Requisito 2 - Protótipo Figma
 * Tela de cadastro de sindicato: É possivel inserir os dados do sindicato, excluir dados ou alterar
 * Tela de folha de pagamento: É possível gerar a folha de pagamento com base no registro de jornada
 * Tela de Gestor: É possível visualizar alertas
+
+O protótipo pode ser acessado pelo link abaixo (ferramenta Figma):
+[Protótipo - FIGMA](https://www.figma.com/file/i49yOE4PhrBwRNOP0YgR5m/PI?node-id=68%3A54)
+
+
+
