@@ -114,6 +114,12 @@ Os usuários previstos estão descritos conforme imagem abaixo:
 
 [![Artefatos e Tecnologias](https://github.com/PITime01/Minha-Jornada/blob/master/documentos/artefatos%20e%20tecnologias.gif)
 
+|Data|Entrega|
+|-----|--------|
+|27/09|SPRINT 0|
+|18/10|SPRINT 1|
+|08/11|SPRINT 2|
+|29/11|SPRINT 3|
 
 # Prévia de Desenvolvimento de Login
 
