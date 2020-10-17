@@ -124,11 +124,6 @@ Os usuários previstos estão descritos conforme imagem abaixo:
 |08/11|SPRINT 2|
 |29/11|SPRINT 3|
 
-# Prévia de Desenvolvimento de Login
 
-![Desenvolvimento inicial da tela de login](http://img.youtube.com/vi/XRCfJSJqxVg/0.jpg)](http://www.youtube.com/watch?v=XRCfJSJqxVg "Prévia de Login")
-
-# Minha Jornada - sprint 0
-![Sprint 0](http://img.youtube.com/vi/2XOPj9oY2UQ/0.jpg)](http://www.youtube.com/watch?v=2XOPj9oY2UQ "Minha Jornada")
 	
 
