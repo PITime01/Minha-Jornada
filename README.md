@@ -94,7 +94,7 @@ Os usuários previstos estão descritos conforme imagem abaixo:
 
 * Equipe RH: Possui permissão de coletar dados da jornada de trabalho de modo a gerar a folha de pagamento.
 
-# User Stories
+#[# User Stories](https://github.com/PITime01/Minha-Jornada/tree/master/imagens/USER%20STORIES)
 ![Motorista_1](https://github.com/PITime01/Minha-Jornada/blob/master/imagens/USER%20STORIES/motorista_1.jpg)
 ![Motorista_2](https://github.com/PITime01/Minha-Jornada/blob/master/imagens/USER%20STORIES/motorista_2.jpg)
 ![Administrador_1](https://github.com/PITime01/Minha-Jornada/blob/master/imagens/USER%20STORIES/administrador_1.jpg)
