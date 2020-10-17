@@ -28,7 +28,10 @@
 
 * Luis Gabriel Verola Santos - DEV Team
 
+# Índice
 * [O que é o Minha Jornada?](https://github.com/PITime01/Minha-Jornada/blob/master/README.md#minha-jornada)
+* [Visão da solução](https://github.com/PITime01/Minha-Jornada/blob/master/README.md#vis%C3%A3o-da-solu%C3%A7%C3%A3o)
+* [Benefícios](https://github.com/PITime01/Minha-Jornada/blob/master/README.md#benef%C3%ADcios)
 
 
 # Minha-Jornada
