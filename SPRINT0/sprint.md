@@ -35,10 +35,10 @@ O protótipo pode ser acessado pelo link abaixo (ferramenta Figma):
 ![Protótipo](https://github.com/PITime01/Minha-Jornada/blob/master/SPRINT0/Prototipo%20figma%2000_00_00-00_00_30.gif)
 
 # Modelo Conceitual
-![Protótipo](https://github.com/PITime01/Minha-Jornada/blob/master/SPRINT0/Prototipo%20figma%2000_00_00-00_00_30.gif)
+![Modelo Conceitual](https://github.com/PITime01/Minha-Jornada/blob/master/SPRINT0/Modelo%20Conceitual.png)
 
 # Modelo Lógico
-![Protótipo](https://github.com/PITime01/Minha-Jornada/blob/master/SPRINT0/Prototipo%20figma%2000_00_00-00_00_30.gif)
+![Modelo Lógico](https://github.com/PITime01/Minha-Jornada/blob/master/SPRINT0/Modelo%20L%C3%B3gico.png)
 
 # Prévia de Login
 ![Prévia de Login](https://github.com/PITime01/Minha-Jornada/blob/master/SPRINT0/Previa%20Login%2000_00_00-00_00_30.gif)
