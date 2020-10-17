@@ -110,6 +110,11 @@ Os usuários previstos estão descritos conforme imagem abaixo:
 
 ![Story Card](https://github.com/PITime01/Minha-Jornada/blob/master/documentos/STORY%20CARDS.gif)
 
+# Artefatos e Tecnologias
+
+[![Artefatos e Tecnologias](https://github.com/PITime01/Minha-Jornada/blob/master/documentos/artefatos%20e%20tecnologias.gif)
+
+
 # Prévia de Desenvolvimento de Login
 
 [![Desenvolvimento inicial da tela de login](http://img.youtube.com/vi/XRCfJSJqxVg/0.jpg)](http://www.youtube.com/watch?v=XRCfJSJqxVg "Prévia de Login")
