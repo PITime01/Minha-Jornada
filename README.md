@@ -117,7 +117,7 @@ Os usuários previstos estão descritos conforme imagem abaixo:
 # Cronograma de Entegras
 |Data|Entrega|
 |-----|--------|
-|27/09|SPRINT 0|
+|27/09|[SPRINT 0](https://github.com/PITime01/Minha-Jornada/blob/master/SPRINT0/sprint.md)|
 |18/10|SPRINT 1|
 |08/11|SPRINT 2|
 |29/11|SPRINT 3|
