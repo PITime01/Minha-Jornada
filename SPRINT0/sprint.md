@@ -32,5 +32,7 @@ Requisito 2 - Protótipo Figma
 O protótipo pode ser acessado pelo link abaixo (ferramenta Figma):
 [Protótipo - FIGMA](https://www.figma.com/file/i49yOE4PhrBwRNOP0YgR5m/PI?node-id=68%3A54)
 
+![Protótipo](https://github.com/PITime01/Minha-Jornada/blob/master/SPRINT0/Prototipo%20figma%2000_00_00-00_00_30.gif)
+
 
 
