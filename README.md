@@ -32,6 +32,9 @@
 * [O que é o Minha Jornada?](https://github.com/PITime01/Minha-Jornada/blob/master/README.md#minha-jornada)
 * [Visão da solução](https://github.com/PITime01/Minha-Jornada/blob/master/README.md#vis%C3%A3o-da-solu%C3%A7%C3%A3o)
 * [Benefícios](https://github.com/PITime01/Minha-Jornada/blob/master/README.md#benef%C3%ADcios)
+* [Principais deliverables](https://github.com/PITime01/Minha-Jornada/blob/master/README.md#principais-deliverables)
+* [Limites e Restrições da Solução](https://github.com/PITime01/Minha-Jornada/blob/master/README.md#limites-e-restri%C3%A7%C3%B5es-da-solu%C3%A7%C3%A3o)
+* [User Roles](https://github.com/PITime01/Minha-Jornada/blob/master/README.md#user-roles)
 
 
 # Minha-Jornada
