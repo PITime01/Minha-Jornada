@@ -19,3 +19,6 @@
 # Diagrama de casos de uso
 
 ![Diagrama](https://github.com/PITime01/Minha-Jornada/blob/master/SPRINT%201/Diagrama%20Sprint%201.JPG)
+
+# Login e CRUD de usuários
+![Login](https://j.gifs.com/oVqONX.gif)
