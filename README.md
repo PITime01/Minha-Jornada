@@ -44,23 +44,32 @@ A solução proposta por este software permite que o motorista e a empresa contr
 
 Portanto este software consolidará registros de acordo com o cumprimento da lei e dos acordos coletivos de forma parametrizável, removendo a complexidade do acompanhamento da jornada de trabalho dos motoristas. 
 
-# Visão da Solução  
-Para motoristas de transporte de mercadorias e empresa de logística, que querem o registro e acompanhamento da jornada de trabalho do motorista, o Minha Jornada é um software que oferece registro da jornada de trabalho ajustando-se ao acordo coletivo do usuário e permite controle e visualização dos registros pela empresa de logística, assim como permite coletar dados para a folha de pagamento. 
+# Visão da Solução
+O Minha Jornada é um software que oferece registro da jornada de trabalho do motorista que transporta entregas, ajustando-se ao acordo coletivo sindical do usuário, além de permitir o controle e visualização dos registros pela empresa de logística, assim como permite coletar dados para a folha de pagamento. 
+
+# Benefícios
+* Permite registro da jornada de trabalho
+* Ajusta a jornada de trabalho com o acordo coletivo sindical
+* Permite registro dos veículos utilizados para transporte
+* Possui sistema de registros de alertas
+* Estrai daodos hora extra e banco de horas para folha de pagamento
 
 # Principais deliverables 
-Interface com permissões e visualizações para perfis diferentes 
-Banco de dados de registro do motorista 
-Banco de dados dos sindicatos 
-Sistema de cadastro do veículo
-Sistema de alertas 
-Status de usuários 
-Documento de Especificação 
-Documento de plano de teste 
-Manual do usuário 
+* Interface de login com permissões e visualizações para perfis diferentes 
+* Banco de dados de registro do motorista 
+* Banco de dados dos sindicatos 
+* Banco de dados de funcionários
+* Banco de dados de veículos
+* Botão de emergência para motorista comunicar central
+* Sistema de alertas
+* Status de usuários 
+* Documento de Especificação 
+* Documento de plano de teste 
+* Manual do usuário 
 
 # Limites e Restrições da Solução 
 O acesso poderá ser feito por meio de aplicativo em tempo futuro, necessitando de um novo cronograma para criação de interface para sistemas android e IOS. 
-O acesso se limita à locais com rede, podendo ser futuramente atualizado para armazena registros e enviá-los quando houver rede disponível. 
+O acesso se limita à locais com rede, podendo ser futuramente atualizado para armazenar registros e enviá-los quando houver rede disponível. 
 O sistema não verifica geolocalização ou se o veículo está ligado. 
 
 # Descrição dos Usuários 
