@@ -75,7 +75,7 @@ O acesso poderá ser feito por meio de aplicativo em tempo futuro, necessitando 
 O acesso se limita à locais com rede, podendo ser futuramente atualizado para armazenar registros e enviá-los quando houver rede disponível. 
 O sistema não verifica geolocalização ou se o veículo está ligado. 
 
-# Descrição dos Usuários 
+# User Roles 
 Os usuários previstos estão descritos conforme imagem abaixo: 
 
 ![User Roles](https://github.com/PITime01/Minha-Jornada/blob/master/documentos/User%20Roles.jpg)
@@ -83,18 +83,14 @@ Os usuários previstos estão descritos conforme imagem abaixo:
 ### Detalhamento das funções dos perfis: 
 
 
-Motorista: Registra sua jornada de trabalho contemplando hora extra, repouso e tempo trabalhado. Possui permissão de acesso para leitura e escrita destes dados para seu login.
+* Motorista: Registra sua jornada de trabalho contemplando hora extra, repouso e tempo trabalhado. Possui permissão de acesso para leitura e escrita destes dados para seu login.
 
-Administrador: Possui permissão de conceder acessos e realizar alterações em todos os registros. Sendo estes de escrita e leitura.
+* Administrador: Possui permissão de conceder acessos e realizar alterações em todos os registros. Sendo estes de escrita e leitura.
 
-Administrativo-gestor: Possui permissão para cadastrar dados do motorista ou do veículo. Sendo estes de leitura e escrita.
-Não possui acesso para alterar outros registros, mas tem acesso de leitura.
+* Administrativo-gestor: Possui permissão para relatórios sobre o sistemas sem alterá-los.
 
-Administrativo-filial: Possui permissão para cadastrar dados do veículo. Sendo estes de leitura e escrita.
-Não possui acesso para alterar outros registros, mas tem acesso de leitura.
+* Equipe RH: Possui permissão de coletar dados da jornada de trabalho de modo a gerar a folha de pagamento.
 
-Financeiro: Possui permissão de coletar dados da jornada de trabalho, possuindo permissão de leitura dos registros de jornada de trabalho.
-Não possui acesso aos cadastros. Sem leitura e escrita.
 # Cronograma Inicial
 O cronograma inicial foi proposto conforme imagens abaixo:
 
