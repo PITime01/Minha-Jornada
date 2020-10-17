@@ -20,3 +20,11 @@ Requisito 2 - Protótipo Figma
 * Levantamento de requisitos
 * Possibilitar visualização de modelo do software pelo cliente
 * Analisar complexidade da realização dos itens
+
+# Protótipo
+* Tela de login: É possível realizar login com perfis vonculados aos usuários pelo botão entrar
+* Tela de cadastro de motorista: É possivel inserir os dados do motorista, excluir dados ou alterar
+* Tela de cadastro de veículo: É possivel inserir os dados do veículo, excluir dados ou alterar
+* Tela de cadastro de sindicato: É possivel inserir os dados do sindicato, excluir dados ou alterar
+* Tela de folha de pagamento: É possível gerar a folha de pagamento com base no registro de jornada
+* Tela de Gestor: É possível visualizar alertas
