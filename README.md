@@ -108,6 +108,7 @@ Os usuários previstos estão descritos conforme imagem abaixo:
 
 # Story Card
 
+![Story Card](https://github.com/PITime01/Minha-Jornada/blob/master/documentos/STORY%20CARDS.gif)
 
 # Prévia de Desenvolvimento de Login
 
