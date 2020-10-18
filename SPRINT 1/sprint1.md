@@ -20,5 +20,10 @@
 
 ![Diagrama](https://github.com/PITime01/Minha-Jornada/blob/master/SPRINT%201/Diagrama%20Sprint%201.JPG)
 
+O diagrama de casos de uso abrange o cadastro de usuários no Minha Jornada, sendo que o cadastro é realizado somente pelo perfil administrador, que possui acesso ao CRUD de usuários.
+O administrador realizando o cadastro de um usuário pode liberar o acesso vinculado ao perfil do usuário de modo que, este possa realizar login no Minha Jornada acessando as funcionalidades que foram disponibilizadas pelo administrador.
+
 # Login e CRUD de usuários
+Este é o vídeo demostrando o CRUD dos usuários, permissão de acessos e login.
+O software foi desenvolvido com Java, Spring, CSS e HTML.
 ![Login](https://j.gifs.com/oVqONX.gif)
