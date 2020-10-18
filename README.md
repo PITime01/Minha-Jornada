@@ -124,6 +124,14 @@ Os usuários previstos estão descritos conforme imagem abaixo:
 |08/11|SPRINT 2|
 |29/11|SPRINT 3|
 
+# Burndown Sprint 01
 
+[![image](https://user-images.githubusercontent.com/71779649/96369669-c0c2e580-1131-11eb-994b-434582c4b49e.png)](https://github.com/PITime01/Minha-Jornada/blob/Sprint-1/Burndown%20Sprint1%20(1).xlsm)
+
+# Wireframe
+
+Clique na imagem abaixo para acessar o protótipo:
+
+[![image](https://user-images.githubusercontent.com/71779649/96269787-33e92200-0fa1-11eb-81f0-0aa59c0a0dab.jpg)](https://www.figma.com/file/i49yOE4PhrBwRNOP0YgR5m/PI)
 	
 
