@@ -28,3 +28,7 @@ Este é o vídeo demostrando o CRUD dos usuários, permissão de acessos e login
 O software foi desenvolvido com Java, Spring, CSS e HTML.
 A programação referente ao software pode ser acessada pelo link do diretório: [Codigo Fonte](https://github.com/PITime01/Minha-Jornada/tree/master/SPRINT%201/codigo-fonte)
 ![Login](https://j.gifs.com/oVqONX.gif)
+
+# Burndown Sprint 01
+
+[![image](https://user-images.githubusercontent.com/71779649/96369669-c0c2e580-1131-11eb-994b-434582c4b49e.png)](https://github.com/PITime01/Minha-Jornada/blob/Sprint-1/Burndown%20Sprint1%20(1).xlsm)
