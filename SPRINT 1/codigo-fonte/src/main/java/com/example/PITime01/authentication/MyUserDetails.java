@@ -1,15 +1,12 @@
 package com.example.PITime01.authentication;
 
-import com.example.PITime01.user.User;
+import com.example.PITime01.employee.Employee;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 
-import java.util.Arrays;
 import java.util.Collection;
-import java.util.Collections;
 import java.util.List;
-import java.util.stream.Collectors;
 
 import static java.util.List.of;
 
@@ -19,10 +16,10 @@ public class MyUserDetails implements UserDetails {
     private String password;
     private List<GrantedAuthority> authorities;
 
-    public MyUserDetails(User user){
-        this.username = user.getName();
-        this.password = user.getPassword();
-        this.authorities = of(new SimpleGrantedAuthority(user.getProfile().name()));
+    public MyUserDetails(Employee employee){
+        this.username = employee.getName();
+        this.password = employee.getPassword();
+        this.authorities = of(new SimpleGrantedAuthority(employee.getProfile().name()));
     }
 
     @Override
