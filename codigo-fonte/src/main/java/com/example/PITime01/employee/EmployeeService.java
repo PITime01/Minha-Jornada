@@ -1,4 +1,4 @@
-package com.example.PITime01.user;
+package com.example.PITime01.employee;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.password.PasswordEncoder;
@@ -8,26 +8,26 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 @Service
-public class UserService {
+public class EmployeeService {
 
     @Autowired
-    private UserRepository repository;
+    private EmployeeRepository repository;
 
     @Autowired
     private PasswordEncoder passwordEncoder;
 
-    public List<UserDTO> listAll() {
+    public List<EmployeeDTO> listAll() {
         return repository.findAll()
             .stream()
-            .map(User::toUserDTO)
+            .map(Employee::toEmployeeDTO)
             .collect(Collectors.toList());
     }
 
-    public User get(Long id) {
+    public Employee get(Long id) {
         return repository.findById(id).get();
     }
 
-    public void save(User client) {
+    public void save(Employee client) {
         client.setPassword(passwordEncoder.encode(client.getPassword()));
         repository.save(client);
     }

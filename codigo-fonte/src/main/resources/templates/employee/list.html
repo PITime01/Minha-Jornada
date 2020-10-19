@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 <html xmlns:th="http://www.thymeleaf.org">
 <head>
@@ -22,10 +20,10 @@
             <a class="navbar-item" href="/">
                 Minha Jornada
             </a>
-            <a style="margin-left: 10px" class="navbar-item is-active" href="/user/list">
+            <a style="margin-left: 10px" class="navbar-item is-active" href="/employee/list">
                 Listagem
             </a>
-            <a style="margin-left: 10px" class="navbar-item" href="/user/new">
+            <a style="margin-left: 10px" class="navbar-item" href="/employee/new">
                 Cadastro de usuario
             </a>
         </div>
@@ -41,12 +39,15 @@
 <section class="container mt-5">
     <input name="keyword" id="txtSearch" class="input is-rounded mb-5" type="text" placeholder="Entre com o nome para pesquisar">
 
-    <table class="table container">
+    <table class="table container" style="width: 100%">
         <thead>
         <tr>
             <th>Id</th>
-            <th style="width: 100%">Name</th>
+            <th>Name</th>
             <th>Profile</th>
+            <th>Status</th>
+            <th>CPF</th>
+            <th>Registration</th>
             <th>Edit</th>
             <th>Delete</th>
         </tr>
@@ -56,8 +57,11 @@
                 <td th:text="${cliente.id}">Id</td>
                 <td th:text="${cliente.name}">Nome</td>
                 <td th:text="${cliente.profile.label}">Profile</td>
-                <td>  <a th:href="@{'/user/edit/' + ${cliente.id}}"><button class="button is-warning is-light">Edit</button></a></td>
-                <td>  <a th:href="@{'/user/delete/' + ${cliente.id}}"><button class="button is-danger is-light">Delete</button></a></td>
+                <td th:text="${cliente.status.label}">Status</td>
+                <td th:text="${cliente.cpf}">CPF</td>
+                <td th:text="${cliente.registration}">Registration</td>
+                <td>  <a th:href="@{'/employee/edit/' + ${cliente.id}}"><button class="button is-warning is-light">Edit</button></a></td>
+                <td>  <a th:href="@{'/employee/delete/' + ${cliente.id}}"><button class="button is-danger is-light">Delete</button></a></td>
         </tr>
         </tbody>
     </table>

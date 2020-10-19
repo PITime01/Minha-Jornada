@@ -1,4 +1,4 @@
-package com.example.PITime01.user;
+package com.example.PITime01.employee;
 
 public enum Profile {
     ADMIN("Administrativo"),

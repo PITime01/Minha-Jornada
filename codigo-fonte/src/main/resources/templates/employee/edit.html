@@ -21,10 +21,10 @@
             <a class="navbar-item" href="/">
                 Minha Jornada
             </a>
-            <a style="margin-left: 10px" class="navbar-item" href="/user/list">
+            <a style="margin-left: 10px" class="navbar-item" href="/employee/list">
                 Listagem
             </a>
-            <a style="margin-left: 10px" class="navbar-item is-active" href="/user/new">
+            <a style="margin-left: 10px" class="navbar-item is-active" href="/employee/new">
                 Cadastro de usuario
             </a>
         </div>
@@ -33,7 +33,7 @@
 <section class="section hero is-light medium">
     <div class="container">
         <h1 class="title">
-            Criação de Usuarios
+            Edição de Usuario
         </h1>
     </div>
 </section>
@@ -42,11 +42,11 @@
         <div class="container">
             <div class="columns is-centered">
                 <div class="column is-5-tablet is-4-desktop is-3-widescreen">
-                    <form action="#" th:action="@{/user/save}" th:object="${cliente}" method="post" class="box">
+                    <form action="#" th:action="@{/employee/edit}" th:object="${cliente}" method="post" class="box">
                         <div class="field">
-                            <label for="" class="label">Usuario</label>
+                            <label for="" class="label">ID</label>
                             <div class="control has-icons-left">
-                                <td> <input type="text" name="username" id="username" placeholder="nome do usuario" class="input" required th:field="*{name}">
+                                <td> <input class="input" type="text" th:field="*{id}" readonly="readonly"/>
                                     <span class="icon is-small is-left">
                               <i class="fa fa-envelope"></i>
                                 </td>
@@ -54,10 +54,10 @@
                             </div>
                         </div>
                         <div class="field">
-                            <label for="" class="label">Senha</label>
+                            <label for="" class="label">Usuario</label>
                             <div class="control has-icons-left">
                                 <td>
-                                    <input type="password" name="password" id="password" placeholder="*******" class="input" required th:field="*{password}">
+                                    <input class="input" type="text" th:field="*{name}"/>
                                     <span class="icon is-small is-left">
                               	<i class="fa fa-lock"></i>
                                 </td>
@@ -65,21 +65,19 @@
                             </div>
                         </div>
                         <div class="field">
-                            <label for="" class="label">Perfil</label>
+                            <label for="" class="label">Matricula</label>
                             <div class="control has-icons-left">
                                 <td>
-                                    <div class="select" style="width: 100%;">
-                                        <select th:field="*{profile}" style="width: 100%;">
-                                            <option th:each="profile : ${availableProfiles}" th:value="${profile}" th:text="${profile.label}" ></option>
-                                        </select>
-                                    </div>
+                                    <input class="input" type="text" th:field="*{registration}"/>
+                                    <span class="icon is-small is-left">
+                              	<i class="fa fa-lock"></i>
                                 </td>
                                 </span>
                             </div>
                         </div>
                         <div class="field" id="savebutton">
-                            <button class="button is-success">
-                                Registrar
+                            <button id="savebutton" class="button is-success">
+                                Editar
                             </button>
                         </div>
                     </form>
