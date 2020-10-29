@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3fc5659a-cf80-4f4b-b28b-5f8d829153f1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/SPRINT 1/Diagrama Sprint 1.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SPRINT 1/Diagrama sprint01.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SPRINT 1/STORY CARDS_sprint1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SPRINT 1/codigo-fonte/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SPRINT 1/codigo-fonte/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SPRINT 1/codigo-fonte/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SPRINT 1/codigo-fonte/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SPRINT 1/codigo-fonte/src/main/java/com/example/PITime01/PiTime01Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SPRINT 1/codigo-fonte/src/main/java/com/example/PITime01/authentication/MyUserDetailService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SPRINT 1/codigo-fonte/src/main/java/com/example/PITime01/authentication/MyUserDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SPRINT 1/codigo-fonte/src/main/java/com/example/PITime01/authentication/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SPRINT 1/codigo-fonte/src/main/java/com/example/PITime01/controllers/ApplicationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SPRINT 1/codigo-fonte/src/main/java/com/example/PITime01/controllers/CustomErrorController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SPRINT 1/codigo-fonte/src/main/java/com/example/PITime01/controllers/EmployeeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SPRINT 1/codigo-fonte/src/main/java/com/example/PITime01/controllers/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SPRINT 1/codigo-fonte/src/main/java/com/example/PITime01/employee/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SPRINT 1/codigo-fonte/src/main/java/com/example/PITime01/employee/EmployeeDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SPRINT 1/codigo-fonte/src/main/java/com/example/PITime01/employee/EmployeeRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SPRINT 1/codigo-fonte/src/main/java/com/example/PITime01/employee/EmployeeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SPRINT 1/codigo-fonte/src/main/java/com/example/PITime01/employee/Profile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SPRINT 1/codigo-fonte/src/main/java/com/example/PITime01/employee/Status.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SPRINT 1/codigo-fonte/src/main/java/com/example/PITime01/user/Profile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SPRINT 1/codigo-fonte/src/main/java/com/example/PITime01/user/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SPRINT 1/codigo-fonte/src/main/java/com/example/PITime01/user/UserDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SPRINT 1/codigo-fonte/src/main/java/com/example/PITime01/user/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SPRINT 1/codigo-fonte/src/main/java/com/example/PITime01/user/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SPRINT 1/codigo-fonte/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SPRINT 1/codigo-fonte/src/main/resources/banner.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SPRINT 1/codigo-fonte/src/main/resources/db/migration/V1.1__Create_user_tables.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SPRINT 1/codigo-fonte/src/main/resources/db/migration/V1.2__Create_default_user.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SPRINT 1/codigo-fonte/src/main/resources/db/migration/V1.2__alter_column_password.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SPRINT 1/codigo-fonte/src/main/resources/db/migration/V1.3__alter_table_users_to_employee.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SPRINT 1/codigo-fonte/src/main/resources/db/migration/V1.3__drop_all.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SPRINT 1/codigo-fonte/src/main/resources/db/migration/V1.4__create_default_user_again.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SPRINT 1/codigo-fonte/src/main/resources/db/migration/V1.5__alter_column_password.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SPRINT 1/codigo-fonte/src/main/resources/templates/404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SPRINT 1/codigo-fonte/src/main/resources/templates/edit_product.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SPRINT 1/codigo-fonte/src/main/resources/templates/employee/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SPRINT 1/codigo-fonte/src/main/resources/templates/employee/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SPRINT 1/codigo-fonte/src/main/resources/templates/employee/new.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SPRINT 1/codigo-fonte/src/main/resources/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SPRINT 1/codigo-fonte/src/main/resources/templates/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SPRINT 1/codigo-fonte/src/main/resources/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SPRINT 1/codigo-fonte/src/main/resources/templates/new_client.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SPRINT 1/codigo-fonte/src/main/resources/templates/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SPRINT 1/sprint1.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SPRINT0/Modelo Conceitual.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SPRINT0/Modelo Conceitual.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SPRINT0/Modelo Lógico.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SPRINT0/Modelo Lógico.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SPRINT0/Previa Login 00_00_00-00_00_30.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SPRINT0/Prototipo figma 00_00_00-00_00_30.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SPRINT0/STORY CARDS.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SPRINT0/STORY CARDS_sprint0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SPRINT0/User Stories.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SPRINT0/sprint.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codigo-fonte/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codigo-fonte/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codigo-fonte/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codigo-fonte/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codigo-fonte/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codigo-fonte/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codigo-fonte/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codigo-fonte/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codigo-fonte/src/main/java/com/example/PITime01/PiTime01Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codigo-fonte/src/main/java/com/example/PITime01/authentication/MyUserDetailService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codigo-fonte/src/main/java/com/example/PITime01/authentication/MyUserDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codigo-fonte/src/main/java/com/example/PITime01/authentication/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codigo-fonte/src/main/java/com/example/PITime01/controllers/ApplicationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codigo-fonte/src/main/java/com/example/PITime01/controllers/CustomErrorController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codigo-fonte/src/main/java/com/example/PITime01/controllers/EmployeeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codigo-fonte/src/main/java/com/example/PITime01/employee/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codigo-fonte/src/main/java/com/example/PITime01/employee/EmployeeDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codigo-fonte/src/main/java/com/example/PITime01/employee/EmployeeRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codigo-fonte/src/main/java/com/example/PITime01/employee/EmployeeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codigo-fonte/src/main/java/com/example/PITime01/employee/Profile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codigo-fonte/src/main/java/com/example/PITime01/employee/Status.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codigo-fonte/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codigo-fonte/src/main/resources/banner.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codigo-fonte/src/main/resources/db/migration/V1.1__Create_user_tables.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codigo-fonte/src/main/resources/db/migration/V1.2__alter_column_password.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codigo-fonte/src/main/resources/db/migration/V1.3__alter_table_users_to_employee.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codigo-fonte/src/main/resources/templates/404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codigo-fonte/src/main/resources/templates/employee/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codigo-fonte/src/main/resources/templates/employee/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codigo-fonte/src/main/resources/templates/employee/new.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codigo-fonte/src/main/resources/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codigo-fonte/src/main/resources/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codigo-fonte/src/main/resources/templates/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/documentos/Capa.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/documentos/Planejamento SPRINTS.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/documentos/REQUISITOS.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/documentos/STORY CARDS.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/documentos/STORY CARDS.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/documentos/User Roles.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/documentos/User Stories.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/documentos/artefatos e tecnologias.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/documentos/minhajornada.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imagens/USER STORIES/Equipe RH_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imagens/USER STORIES/administrador gestor_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imagens/USER STORIES/administrador gestor_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imagens/USER STORIES/administrador_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imagens/USER STORIES/administrador_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imagens/USER STORIES/motorista_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imagens/USER STORIES/motorista_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imagens/imagens" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modelo Conceitual.png" beforeDir="false" afterPath="$PROJECT_DIR$/Modelo Conceitual.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modelo Lógico.png" beforeDir="false" afterPath="$PROJECT_DIR$/Modelo Lógico.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Previa Login.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/SPRINT0/Previa Login (2).mp4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Requisitos.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SPRINTS.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/USER STORIES.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/User Roles.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WIREFRAME (Protótipo).pdf" beforeDir="false" afterPath="$PROJECT_DIR$/SPRINT0/WIREFRAME (Protótipo) (1).pdf" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:\Arquivos de Programas\IntelliJ IDEA Community Edition 2020.2.2\plugins\maven\lib\maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1jY4wmqryswaOGBLzr2kP76G794" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3fc5659a-cf80-4f4b-b28b-5f8d829153f1" name="Default Changelist" comment="" />
+      <created>1603967949522</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1603967949522</updated>
+      <workItem from="1603967957774" duration="41000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
