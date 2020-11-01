@@ -1,4 +1,4 @@
-package com.example.PITime01.Vehicle;
+package com.example.PITime01.vehicle;
 
 import com.example.PITime01.employee.Employee;
 import org.springframework.beans.factory.annotation.Autowired;

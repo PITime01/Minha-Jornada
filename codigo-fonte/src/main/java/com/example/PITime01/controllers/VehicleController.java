@@ -1,13 +1,10 @@
 package com.example.PITime01.controllers;
 
-import com.example.PITime01.Vehicle.Vehicle;
-import com.example.PITime01.Vehicle.VehicleService;
-import com.example.PITime01.employee.Profile;
+import com.example.PITime01.vehicle.Vehicle;
+import com.example.PITime01.vehicle.VehicleService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
-import org.springframework.web.servlet.ModelAndView;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
 import java.util.List;
