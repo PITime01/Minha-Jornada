@@ -1,8 +1,8 @@
 package com.example.PITime01.controllers;
 
 
-import com.example.PITime01.vehicle.EmployeeService;
-import com.example.PITime01.vehicle.Employee;
+import com.example.PITime01.employee.EmployeeService;
+import com.example.PITime01.employee.Employee;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
