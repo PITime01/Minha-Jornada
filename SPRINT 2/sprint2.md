@@ -1,10 +1,14 @@
 ![Sprint1](https://github.com/PITime01/Minha-Jornada/blob/master/SPRINT%202/STORY%20CARDS_sprint2.gif)
 
 
-# A sprint 1 abrange os seguintes itens:
-* CRUD dos usuários dos sistemas
-* Sistema de Login
-* Perfil de usuário vinculado a acessibilidade do sistema
+# A sprint 2 abrange os seguintes itens:
+* CRUD dos motoristas
+* CRUD dos veículos
+* CRUD dos funcionários
+* CRUD dos sindicatos
+* Troca de senha de usuários
+* Tela de registro da jornada do Motorista
+
 
 # User stories atendidas
 [1][7][13][19]
