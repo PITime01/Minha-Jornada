@@ -45,4 +45,4 @@ A programação referente ao software pode ser acessada pelo link do diretório:
 
 # Burndown Sprint 01
 
-[![image](https://user-images.githubusercontent.com/71779649/96369669-c0c2e580-1131-11eb-994b-434582c4b49e.png)](https://github.com/PITime01/Minha-Jornada/blob/Sprint-1/Burndown%20Sprint1%20(1).xlsm)
+[![image](https://github.com/PITime01/Minha-Jornada/blob/master/imagens/Burndown_2.jpg)
