@@ -1,4 +1,5 @@
-![Sprint1](https://github.com/PITime01/Minha-Jornada/blob/master/SPRINT%201/STORY%20CARDS_sprint1.gif)
+![Sprint1](https://github.com/PITime01/Minha-Jornada/blob/master/SPRINT%202/STORY%20CARDS_sprint2.gif)
+
 
 # A sprint 1 abrange os seguintes itens:
 * CRUD dos usuários dos sistemas
