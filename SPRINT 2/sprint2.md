@@ -11,15 +11,24 @@
 
 
 # User stories atendidas
-[1][7][13][19]
+[8][9][5][6][11][16][17][20][21]
 
 # Requisitos atendidos
-* Requisito 1 - 4 logins de usuários: Administrador, administrativo Gestor, Equipe RH, motorista.
-* Requisito 7 - Perfis de acesso vinculados às funcionalidades. Possibilidades: leitura, escrita, cadastro, acesso total.
+* Requisito 3 - Troca de senha de acesso do motorista.
+* Requisito 4 - Troca de senha do administrativo gestor.
+* Requisito 5 - Troca senha de Equipe RH
+* Requisito 8 - Cadastro do veículo por administrador.
+* Requisito 9 - Exclusão de cadastro do veículo por administrador.
+* Requisito 10 - Cadastro do motorista por administrador.
+* Requisito 11 - Exclusão de cadastro do motorista por administrador.
+* Requisito 13 - Escala (tela) de jornada do motorista.
 
-# Valor da Sprint 1
-* Possibilitar acesso ao sistema
-* Permitir acesso aos usuários de acordo com suas permissões
+# Valor da Sprint 2
+* Possibilitar cadastro de veículos
+* Possibilitar cadastro de motoristas
+* Possibilitar a troca de senha dos usuários
+* Disponibilizar ambiente de registro da jornada do motorista
+
 
 # Diagrama de casos de uso
 
