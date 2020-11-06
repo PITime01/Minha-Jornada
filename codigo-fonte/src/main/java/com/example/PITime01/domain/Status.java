@@ -1,4 +1,4 @@
-package com.example.PITime01.employee;
+package com.example.PITime01.domain;
 
 public enum Status {
     ACTIVE("Ativo"),

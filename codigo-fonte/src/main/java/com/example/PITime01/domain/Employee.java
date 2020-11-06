@@ -1,5 +1,4 @@
-package com.example.PITime01.employee;
-
+package com.example.PITime01.domain;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -25,14 +24,5 @@ public class Employee {
     private String cpf;
     private String registration;
 
-    public EmployeeDTO toEmployeeDTO() {
-        return new EmployeeDTO(
-            this.id,
-            this.name,
-            this.profile,
-            this.status,
-            this.cpf.substring(0, 5) + this.cpf.substring(5).replaceAll("[0-9]", "*"),
-            this.registration
-        );
-    }
+
 }

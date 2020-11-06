@@ -1,4 +1,4 @@
-package com.example.PITime01.controllers;
+package com.example.PITime01.application.http.controllers;
 
 import org.springframework.core.Ordered;
 import org.springframework.stereotype.Controller;

@@ -1,6 +1,6 @@
-package com.example.PITime01.authentication;
+package com.example.PITime01.application.http.authentication;
 
-import com.example.PITime01.employee.Employee;
+import com.example.PITime01.domain.Employee;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
@@ -12,11 +12,11 @@ import static java.util.List.of;
 
 public class MyUserDetails implements UserDetails {
 
-    private String username;
-    private String password;
-    private List<GrantedAuthority> authorities;
+    private final String username;
+    private final String password;
+    private final List<GrantedAuthority> authorities;
 
-    public MyUserDetails(Employee employee){
+    public MyUserDetails(Employee employee) {
         this.username = employee.getName();
         this.password = employee.getPassword();
         this.authorities = of(new SimpleGrantedAuthority(employee.getProfile().name()));
