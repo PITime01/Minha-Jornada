@@ -7,37 +7,20 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
 </head>
 <body>
-<nav class="navbar is-primary is-light is-spaced" role="navigation" aria-label="main navigation">
-    <div class="navbar-brand">
-        <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
-            <span aria-hidden="true"></span>
-            <span aria-hidden="true"></span>
-            <span aria-hidden="true"></span>
-        </a>
-    </div>
-    <div id="navbarBasicExample" class="navbar-menu">
-        <div class="navbar-start">
-            <a class="navbar-item" href="/">
-                Minha Jornada
-            </a>
-            <a style="margin-left: 10px" class="navbar-item is-active" href="/employee/list">
-                Listagem
-            </a>
-            <a style="margin-left: 10px" class="navbar-item" href="/employee/new">
-                Cadastro de usuario
-            </a>
-        </div>
-    </div>
-</nav>
+
+<div th:replace="fragments/header :: header">
+</div>
+
 <section class="section hero is-light medium">
     <div class="container">
         <h1 class="title">
-            Listagem de Usuarios
+            Listagem de Funcionario
         </h1>
     </div>
 </section>
 <section class="container mt-5">
-    <input name="keyword" id="txtSearch" class="input is-rounded mb-5" type="text" placeholder="Entre com o nome para pesquisar">
+    <input class="input is-rounded mb-5" id="txtSearch" name="keyword" placeholder="Entre com o nome para pesquisar"
+           type="text">
 
     <table class="table container" style="width: 100%">
         <thead>

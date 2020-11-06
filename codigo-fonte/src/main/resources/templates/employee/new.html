@@ -9,48 +9,32 @@
           integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 </head>
 <body>
-    <nav class="navbar is-primary is-light is-spaced" role="navigation" aria-label="main navigation">
-        <div class="navbar-brand">
-            <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false"
-               data-target="navbarBasicExample">
-                <span aria-hidden="true"></span>
-                <span aria-hidden="true"></span>
-                <span aria-hidden="true"></span>
-            </a>
-        </div>
-        <div id="navbarBasicExample" class="navbar-menu">
-            <div class="navbar-start">
-                <a class="navbar-item" href="/">
-                    Minha Jornada
-                </a>
-                <a style="margin-left: 10px" class="navbar-item" href="/employee/list">
-                    Listagem
-                </a>
-                <a style="margin-left: 10px" class="navbar-item is-active" href="/employee/new">
-                    Cadastro de usuario
-                </a>
-            </div>
-        </div>
-    </nav>
-    <section class="section hero is-light medium">
+
+<div th:replace="fragments/header :: header">
+    <div th:replace="fragments/header.html
+      :: formField(field='Name', value='John Doe',size='40')">
+    </div>
+</div>
+
+<section class="section hero is-light medium">
+    <div class="container">
+        <h1 class="title">
+            Criação de Usuarios
+        </h1>
+    </div>
+</section>
+<section class="is-rounded is-fullheight">
+    <div class="hero-body">
         <div class="container">
-            <h1 class="title">
-                Criação de Usuarios
-            </h1>
-        </div>
-    </section>
-    <section class="is-rounded is-fullheight">
-        <div class="hero-body">
-            <div class="container">
-                <div class="columns is-centered">
-                    <div class="column is-5-tablet is-4-desktop is-3-widescreen">
-                        <form action="#" th:action="@{/employee/save}" th:object="${cliente}" method="post" class="box">
-                            <div class="field">
-                                <label for="" class="label">Usuario</label>
-                                <div class="control has-icons-left">
-                                    <td><input type="text" name="username" id="username" placeholder="nome do usuario"
-                                               class="input" required th:field="*{name}">
-                                        <span class="icon is-small is-left">
+            <div class="columns is-centered">
+                <div class="column is-5-tablet is-4-desktop is-3-widescreen">
+                    <form action="#" th:action="@{/employee/save}" th:object="${cliente}" method="post" class="box">
+                        <div class="field">
+                            <label for="" class="label">Usuario</label>
+                            <div class="control has-icons-left">
+                                <td><input type="text" name="username" id="username" placeholder="nome do usuario"
+                                           class="input" required th:field="*{name}">
+                                    <span class="icon is-small is-left">
                               <i class="fa fa-envelope"></i>
                                     </td>
                                     </span>
@@ -59,9 +43,9 @@
                             <div class="field">
                                 <label for="" class="label">Mátricula</label>
                                 <div class="control has-icons-left">
-                                    <td><input type="text" name="registration" id="registration"
-                                               placeholder="matricula do usuario" class="input" required
-                                               th:field="*{registration}">
+                                    <td><input class="input" id="registration" name="registration"
+                                               placeholder="matricula do usuario" required th:field="*{registration}"
+                                               type="text">
                                         <span class="icon is-small is-left">
                               <i class="fa fa-envelope"></i>
                                     </td>

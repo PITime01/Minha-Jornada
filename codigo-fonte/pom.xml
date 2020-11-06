@@ -74,9 +74,9 @@
 					</execution>
 				</executions>
 				<configuration>
-					<url>jdbc:postgresql://tuffi.db.elephantsql.com:5432/yakakcvj</url>
-					<user>yakakcvj</user>
-					<password>HItOiuRPWJ2Sk-pWaA0H3vn7PrhENdgP</password>
+					<url>jdbc:postgresql://tuffi.db.elephantsql.com:5432/rtrrxiim</url>
+					<user>rtrrxiim</user>
+					<password>FEenSacBauY-uWJxDAbOaS2UzvEyhz8O</password>
 					<schemas>
 						<schema>springproject</schema>
 					</schemas>
