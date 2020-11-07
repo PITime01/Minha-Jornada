@@ -109,6 +109,7 @@ Os usuários previstos estão descritos conforme imagem abaixo:
 ![Equipe RH](https://github.com/PITime01/Minha-Jornada/blob/master/imagens/USER%20STORIES/Equipe%20RH_1.jpg)
 
 # Story Card
+<<<<<<< HEAD
 
 ![Story Card](https://github.com/PITime01/Minha-Jornada/blob/master/documentos/STORY%20CARDS.gif)
 
@@ -124,6 +125,22 @@ Os usuários previstos estão descritos conforme imagem abaixo:
 |08/11|[SPRINT 2](https://github.com/PITime01/Minha-Jornada/blob/master/SPRINT%202/sprint2.md)|
 |29/11|SPRINT 3|
 
+=======
+
+![Story Card](https://github.com/PITime01/Minha-Jornada/blob/master/documentos/STORY%20CARDS.gif)
+
+# Artefatos e Tecnologias
+
+![Artefatos e Tecnologias](https://github.com/PITime01/Minha-Jornada/blob/master/documentos/artefatos%20e%20tecnologias.gif)
+
+# Cronograma de Entregas
+|Data|Entrega|
+|-----|--------|
+|27/09|[SPRINT 0](https://github.com/PITime01/Minha-Jornada/blob/master/SPRINT0/sprint.md)|
+|18/10|[SPRINT 1](https://github.com/PITime01/Minha-Jornada/blob/master/SPRINT%201/sprint1.md)|
+|08/11|SPRINT 2|
+|29/11|SPRINT 3|
+>>>>>>> 5e333c7aa49b6d77112643025c6f40b8e8677967
 
 
 
