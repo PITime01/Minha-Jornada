@@ -24,7 +24,7 @@
                 Listagem
             </a>
             <a style="margin-left: 10px" class="navbar-item" href="/employee/new">
-                Cadastro de usuario
+                Cadastro de Funcionario
             </a>
         </div>
     </div>
@@ -32,7 +32,7 @@
 <section class="section hero is-light medium">
     <div class="container">
         <h1 class="title">
-            Listagem de Usuarios
+            Listagem de Funcionario
         </h1>
     </div>
 </section>
@@ -53,15 +53,15 @@
         </tr>
         </thead>
         <tbody>
-            <tr th:id="'tr' + ${cliente.id}" th:each="cliente: ${clienteList}">
-                <td th:text="${cliente.id}">Id</td>
-                <td th:text="${cliente.name}">Nome</td>
-                <td th:text="${cliente.profile.label}">Profile</td>
-                <td th:text="${cliente.status.label}">Status</td>
-                <td th:text="${cliente.cpf}">CPF</td>
-                <td th:text="${cliente.registration}">Registration</td>
-                <td>  <a th:href="@{'/employee/edit/' + ${cliente.id}}"><button class="button is-warning is-light">Edit</button></a></td>
-                <td>  <a th:href="@{'/employee/delete/' + ${cliente.id}}"><button class="button is-danger is-light">Delete</button></a></td>
+        <tr th:id="'tr' + ${cliente.id}" th:each="cliente: ${clienteList}">
+            <td th:text="${cliente.id}">Id</td>
+            <td th:text="${cliente.name}">Nome</td>
+            <td th:text="${cliente.profile.label}">Profile</td>
+            <td th:text="${cliente.status.label}">Status</td>
+            <td th:text="${cliente.cpf}">CPF</td>
+            <td th:text="${cliente.registration}">Registration</td>
+            <td>  <a th:href="@{'/employee/edit/' + ${cliente.id}}"><button class="button is-warning is-light">Edit</button></a></td>
+            <td>  <a th:href="@{'/employee/delete/' + ${cliente.id}}"><button class="button is-danger is-light">Delete</button></a></td>
         </tr>
         </tbody>
     </table>
@@ -74,12 +74,12 @@
 
 <script th:inline="javascript">
     /*<![CDATA[*/
-        var cliente = /*[[${cliente}]]*/;
+    var cliente = /*[[${cliente}]]*/;
     /*]]>*/
 
     $('#txtSearch').on('keyup',function (){
         var value = $(this).val();
-
+        //console.log(cliente);
         FilterFunction(value,cliente);
     });
 
@@ -88,6 +88,7 @@
         for(var i =0;i<data.length;i++){
             value = value.toLowerCase();
             var fname = data[i].name.toLowerCase();
+            //console.log(fname);
             if(fname.includes(value)){
                 document.querySelector("#tr" + data[i].id).style.display = 'table-row'
             } else {

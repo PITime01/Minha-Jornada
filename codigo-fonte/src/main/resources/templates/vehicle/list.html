@@ -72,20 +72,20 @@
 
 <script th:inline="javascript">
     /*<![CDATA[*/
-    var cliente = /*[[${cliente}]]*/;
+    var vehicle = /*[[${vehicle}]]*/;
     /*]]>*/
 
     $('#txtSearch').on('keyup',function (){
         var value = $(this).val();
-
-        FilterFunction(value,cliente);
+        FilterFunction(value,vehicle);
     });
 
     function FilterFunction(value,data){
         var filteredData = [];
         for(var i =0;i<data.length;i++){
-            value = value.toLowerCase();
-            var fname = data[i].name.toLowerCase();
+            //value = value.toLowerCase();
+            var fname = data[i].chassi;
+            //console.log(fname+"  "+value);
             if(fname.includes(value)){
                 document.querySelector("#tr" + data[i].id).style.display = 'table-row'
             } else {

@@ -24,9 +24,8 @@ public class VehicleController {
     public String viewVehicleHomePage(Model model){
         System.out.println("b");
         List<Vehicle> listVehicles=service.listAll();
-        if (listVehicles != null) {
-            model.addAttribute("listVehicles",listVehicles);
-        }
+        model.addAttribute("listVehicles",listVehicles);
+        model.addAttribute("vehicle",listVehicles);
         return viewFolder+"list";
     }
 
