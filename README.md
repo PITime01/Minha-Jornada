@@ -1,4 +1,4 @@
-![Sprint1](https://github.com/PITime01/Minha-Jornada/blob/master/SPRINT%202/STORY%20CARDS_sprint2.gif)
+![Sprint2](https://github.com/PITime01/Minha-Jornada/blob/SPRINT-2/SPRINT%202/STORY%20CARDS_sprint2.gif?raw=true)
 
 
 # A sprint 2 abrange os seguintes itens:
@@ -32,7 +32,7 @@
 
 # Diagrama de casos de uso
 
-![Diagrama](https://github.com/PITime01/Minha-Jornada/blob/master/SPRINT%202/Diagrama%20com%20sprint%2002.JPG)
+![Diagrama](https://github.com/PITime01/Minha-Jornada/blob/SPRINT-2/SPRINT%202/Diagrama%20com%20sprint%2002.JPG?raw=true)
 
 ### Sprint 01
 O diagrama de casos de uso abrange o cadastro de usuários no Minha Jornada, sendo que o cadastro é realizado somente pelo perfil administrador, que possui acesso ao CRUD de usuários.
