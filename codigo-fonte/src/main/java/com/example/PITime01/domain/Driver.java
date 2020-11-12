@@ -10,7 +10,7 @@ import javax.persistence.*;
 @AllArgsConstructor
 @NoArgsConstructor
 @Entity
-@Table(name = "driver", schema = "springproject")
+@Table(name = "driver", schema = "springproject2")
 public class Driver {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -20,7 +20,7 @@ public class Driver {
     private String categoryLicense;
     private Integer yearAdmission;
     private String telephone;
-    private String union;
+    private String unionName;
     private String email;
 
     public Driver(Driver driver) {
@@ -30,7 +30,7 @@ public class Driver {
         this.categoryLicense = driver.getCategoryLicense();
         this.yearAdmission = driver.getYearAdmission();
         this.telephone = driver.getTelephone();
-        this.union = driver.getUnion();
+        this.unionName = driver.getUnionName();
         this.email = driver.getEmail();
     }
 }

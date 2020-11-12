@@ -32,6 +32,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
                 .antMatchers("/").authenticated()
                 .antMatchers("/employee/**").hasAnyAuthority(ADMIN.name())
                 .antMatchers("/union/**").hasAnyAuthority(ADMIN.name())
+                .antMatchers("/driver/**").hasAnyAuthority(ADMIN.name())
                 .and().formLogin()
                 .loginPage("/login")
                 .permitAll();

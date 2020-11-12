@@ -40,19 +40,19 @@
         </tr>
         </thead>
         <tbody>
-        <tr th:each="union: ${driverList}" th:id="'tr' + ${driver.id}">
+        <tr th:each="driver: ${driverList}" th:id="'tr' + ${driver.id}">
             <td th:text="${driver.id}">Id</td>
-            <td th:text="${driver.nome}">Nome</td>
+            <td th:text="${driver.name}">Nome</td>
             <td th:text="${driver.surname}">Sobrenome</td>
-            <td th:text="${driver.category_license}">Categoria da Habilitada</td>
-            <td th:text="${driver.year_admission}">Ano de admissão</td>
+            <td th:text="${driver.categoryLicense}">Categoria da Habilitada</td>
+            <td th:text="${driver.yearAdmission}">Ano de admissão</td>
             <td th:text="${driver.telephone}">Telefone</td>
-            <td th:text="${driver.union}">Sindicato</td>
+            <td th:text="${driver.unionName}">Sindicato</td>
             <td th:text="${driver.email}">Email</td>
-            <td><a th:href="@{'/union/edit/' + ${driver.id}}">
+            <td><a th:href="@{'/driver/edit/' + ${driver.id}}">
                 <button class="button is-warning is-light">Edit</button>
             </a></td>
-            <td><a th:href="@{'/union/delete/' + ${driver.id}}">
+            <td><a th:href="@{'/driver/delete/' + ${driver.id}}">
                 <button class="button is-danger is-light">Delete</button>
             </a></td>
         </tr>

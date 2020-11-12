@@ -64,7 +64,7 @@ public class DriverController implements WebMvcConfigurer {
         foundDriver.setSurname(driver.getSurname());
         foundDriver.setCategoryLicense(driver.getCategoryLicense());
         foundDriver.setYearAdmission(driver.getYearAdmission());
-        foundDriver.setUnion(driver.getUnion());
+        foundDriver.setUnionName(driver.getUnionName());
         foundDriver.setEmail(driver.getEmail());
         service.save(foundDriver);
         return "redirect:/driver/list";

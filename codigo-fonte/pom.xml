@@ -78,8 +78,8 @@
 					<user>mwvusndj</user>
 					<password>yHqbejJLzUw6oWzUy2wc5du1FMgFgKZm</password>
 					<schemas>
-						<schema>springproject</schema>
-					</schemas>
+                        <schema>springproject2</schema>
+                    </schemas>
 				</configuration>
 			</plugin>
 
