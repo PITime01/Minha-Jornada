@@ -23,6 +23,4 @@ public class Employee {
     private Status status = Status.ACTIVE;
     private String cpf;
     private String registration;
-
-
 }
