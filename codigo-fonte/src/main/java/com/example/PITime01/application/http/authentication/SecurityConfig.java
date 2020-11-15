@@ -1,6 +1,5 @@
-package com.example.PITime01.authentication;
+package com.example.PITime01.application.http.authentication;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
@@ -9,25 +8,31 @@ import org.springframework.security.config.annotation.web.configuration.WebSecur
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 
-import static com.example.PITime01.employee.Profile.ADMIN;
+import static com.example.PITime01.domain.Profile.ADMIN;
 
 @EnableWebSecurity
 public class SecurityConfig extends WebSecurityConfigurerAdapter {
 
-    @Autowired
+    final
     MyUserDetailService userDetailsService;
 
+    public SecurityConfig(MyUserDetailService userDetailsService) {
+        this.userDetailsService = userDetailsService;
+    }
+
     @Override
-    protected void configure(AuthenticationManagerBuilder auth) throws Exception{
+    protected void configure(AuthenticationManagerBuilder auth) throws Exception {
         auth.userDetailsService(userDetailsService);
     }
 
     @Override
-    protected void configure(HttpSecurity http) throws Exception{
+    protected void configure(HttpSecurity http) throws Exception {
         http
                 .authorizeRequests()
                 .antMatchers("/").authenticated()
-//                .antMatchers("/employee/**").hasAnyAuthority(ADMIN.name())
+                .antMatchers("/employee/**").hasAnyAuthority(ADMIN.name())
+                .antMatchers("/union/**").hasAnyAuthority(ADMIN.name())
+                .antMatchers("/driver/**").hasAnyAuthority(ADMIN.name())
                 .and().formLogin()
                 .loginPage("/login")
                 .permitAll();

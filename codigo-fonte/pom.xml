@@ -74,12 +74,12 @@
 					</execution>
 				</executions>
 				<configuration>
-					<url>jdbc:postgresql://tuffi.db.elephantsql.com:5432/yakakcvj</url>
-					<user>yakakcvj</user>
-					<password>HItOiuRPWJ2Sk-pWaA0H3vn7PrhENdgP</password>
+					<url>jdbc:postgresql://tuffi.db.elephantsql.com:5432/mwvusndj</url>
+					<user>mwvusndj</user>
+					<password>yHqbejJLzUw6oWzUy2wc5du1FMgFgKZm</password>
 					<schemas>
-						<schema>springproject</schema>
-					</schemas>
+                        <schema>springproject2</schema>
+                    </schemas>
 				</configuration>
 			</plugin>
 

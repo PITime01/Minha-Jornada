@@ -1,8 +1,7 @@
-package com.example.PITime01.authentication;
+package com.example.PITime01.application.http.authentication;
 
-import com.example.PITime01.employee.Employee;
-import com.example.PITime01.employee.EmployeeRepository;
-import org.springframework.beans.factory.annotation.Autowired;
+import com.example.PITime01.application.repositories.EmployeeRepository;
+import com.example.PITime01.domain.Employee;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
@@ -13,11 +12,15 @@ import java.util.Optional;
 @Service
 public class MyUserDetailService implements UserDetailsService {
 
-    @Autowired
+    final
     EmployeeRepository employeeRepository;
 
+    public MyUserDetailService(EmployeeRepository employeeRepository) {
+        this.employeeRepository = employeeRepository;
+    }
+
     @Override
-    public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException{
+    public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
 
         Optional<Employee> user = employeeRepository.findByName(username);
 
