@@ -10,7 +10,7 @@ import javax.persistence.*;
 @AllArgsConstructor
 @NoArgsConstructor
 @Entity
-@Table(name = "driver", schema = "springproject2")
+@Table(name = "driver", schema = "springproject")
 public class Driver {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

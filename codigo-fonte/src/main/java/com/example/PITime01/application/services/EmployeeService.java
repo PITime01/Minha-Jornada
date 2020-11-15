@@ -32,6 +32,10 @@ public class EmployeeService {
         return repository.findById(id).get();
     }
 
+    public Employee getName(String name) {
+        return repository.findByName(name).get();
+    }
+
     public void save(Employee client) {
         client.setPassword(passwordEncoder.encode(client.getPassword()));
         repository.save(client);
@@ -39,5 +43,12 @@ public class EmployeeService {
 
     public void delete(Long id) {
         repository.deleteById(id);
+    }
+
+    public void updatePassword(Employee user, String newPassword) {
+        String encodedPassword = passwordEncoder.encode(newPassword);
+        user.setPassword(encodedPassword);
+
+        repository.save(user);
     }
 }
