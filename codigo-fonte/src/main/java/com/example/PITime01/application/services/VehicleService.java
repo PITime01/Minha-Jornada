@@ -1,16 +1,18 @@
-package com.example.PITime01.vehicle;
+package com.example.PITime01.application.services;
 
-import java.util.List;
-
+import com.example.PITime01.application.repositories.VehicleRepository;
+import com.example.PITime01.domain.Vehicle;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+
+import java.util.List;
 
 @Service
 public class VehicleService {
     @Autowired
     private VehicleRepository repo;
 
-    public List<Vehicle> listAll(){
+    public List<Vehicle> listAll() {
         return repo.findAll();
     }
 

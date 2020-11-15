@@ -1,8 +1,11 @@
 package com.example.PITime01.application.services;
 
 import com.example.PITime01.application.dto.EmployeeDTO;
+import com.example.PITime01.application.http.authentication.MyUserDetails;
 import com.example.PITime01.application.repositories.EmployeeRepository;
 import com.example.PITime01.domain.Employee;
+import org.springframework.security.core.Authentication;
+import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
@@ -28,11 +31,11 @@ public class EmployeeService {
                 .collect(Collectors.toList());
     }
 
-    public Employee get(Long id) {
+    public Employee findByID(Long id) {
         return repository.findById(id).get();
     }
 
-    public Employee getName(String name) {
+    public Employee findByName(String name) {
         return repository.findByName(name).get();
     }
 
@@ -45,10 +48,23 @@ public class EmployeeService {
         repository.deleteById(id);
     }
 
-    public void updatePassword(Employee user, String newPassword) {
-        String encodedPassword = passwordEncoder.encode(newPassword);
-        user.setPassword(encodedPassword);
+    public void changePassword(String newPassword) {
+        Authentication authentication = SecurityContextHolder.getContext().getAuthentication();
+        String username = ((MyUserDetails) (authentication).getPrincipal()).getUsername();
+
+        Employee user = findByName(username);
+        user.setPassword(passwordEncoder.encode(newPassword));
 
         repository.save(user);
+
+    }
+
+    public boolean checkPassword(String password) {
+        Authentication authentication = SecurityContextHolder.getContext().getAuthentication();
+        String username = ((MyUserDetails) (authentication).getPrincipal()).getUsername();
+
+        Employee user = findByName(username);
+
+        return passwordEncoder.matches(password, user.getPassword());
     }
 }

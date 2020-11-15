@@ -1,38 +1,31 @@
 package com.example.PITime01.application.http.controllers;
 
 import com.example.PITime01.application.dto.EmployeeDTO;
+import com.example.PITime01.application.dto.PasswordDTO;
 import com.example.PITime01.application.services.EmployeeService;
 import com.example.PITime01.domain.Employee;
 import com.example.PITime01.domain.Profile;
-import org.springframework.security.core.Authentication;
-import org.springframework.security.core.context.SecurityContextHolder;
-import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
 import java.util.List;
 
-// TODO: Arrumar nome das paginas HTML
 // TODO: PAGINAR A PAGINA DE LISTAGEM
-// TODO: CRIAR UMA PASTA PROS HTMLS DE FUNCIONARIO
-// TODO: Quebrar a navbar em um Thymeleaf.Fragment e usar ele nas outras paginas, para ter consistencia!
 @Controller
 public class EmployeeController implements WebMvcConfigurer {
 
-    private final EmployeeService service;
-
-    private final PasswordEncoder passwordEncoder;
+    private final EmployeeService employeeService;
 
     private final String viewFolder = "employee/";
 
-    public EmployeeController(EmployeeService service, PasswordEncoder passwordEncoder) {
-        this.service = service;
-        this.passwordEncoder = passwordEncoder;
+    public EmployeeController(EmployeeService employeeService) {
+        this.employeeService = employeeService;
     }
 
-    @RequestMapping("/employee/new")
+    @GetMapping("/employee/new")
     public String newEmployee(Model model) {
         // TODO: Validar CPF la no HTML com Javascript antes de submeter o formulario!
         Employee employee = new Employee();
@@ -41,25 +34,36 @@ public class EmployeeController implements WebMvcConfigurer {
         return viewFolder + "new";
     }
 
-    @RequestMapping("/passwordChange")
-    public String editPassword(Model model) {
+    @GetMapping("/employee/password")
+    public String editPassword(Model model, PasswordDTO passwordDto) {
+        model.addAttribute("passwordDto", passwordDto);
         return "password";
     }
 
-    @RequestMapping(value = "/passwordSuccess", method = RequestMethod.POST)
-    public String editPassword(@RequestParam(value = "newPass", required = false) String newPass) {
-        Authentication authentication = SecurityContextHolder.getContext().getAuthentication();
-        Employee foundEmployee = service.getName(authentication.getName());
+    @PostMapping("/employee/password")
+    public String editPassword(Model model, PasswordDTO passwordDto, BindingResult result) {
 
-        foundEmployee.setPassword(passwordEncoder.encode(newPass));
-        service.save(foundEmployee);
+        if (!employeeService.checkPassword(passwordDto.getCurrentPassword())) {
+            result.rejectValue("currentPassword", null, "incorrect password");
+        }
+
+        if (!passwordDto.getNewPassword().equals(passwordDto.getConfirmPassword())) {
+            result.rejectValue("newPassword", null, "new password doesn't match");
+        }
+
+        if (result.hasErrors()) {
+            model.addAttribute("passwordDto", passwordDto);
+            return "password";
+        }
+
+        employeeService.changePassword(passwordDto.getNewPassword());
         return "redirect:/";
     }
 
     @RequestMapping("/employee/edit/{id}")
     public String editEmployee(@PathVariable(name = "id") Long id, Model model) {
         // TODO: Adicionar um combobox igual o de Perfis que tem na aba NEW, so que pra Status na pagina de EDIT
-        Employee employee = service.get(id);
+        Employee employee = employeeService.findByID(id);
         model.addAttribute("cliente", employee);
 
         return viewFolder + "edit";
@@ -67,16 +71,16 @@ public class EmployeeController implements WebMvcConfigurer {
 
     @RequestMapping(value = "/employee/edit", method = RequestMethod.POST)
     public String editEmployee(@ModelAttribute("cliente") Employee employee) {
-        Employee foundEmployee = service.get(employee.getId());
+        Employee foundEmployee = employeeService.findByID(employee.getId());
         foundEmployee.setName(employee.getName());
         foundEmployee.setRegistration(employee.getRegistration());
-        service.save(foundEmployee);
+        employeeService.save(foundEmployee);
         return "redirect:/employee/list";
     }
 
     @RequestMapping("/employee/list")
     public String listEmployee(Model model) {
-        List<EmployeeDTO> userList = service.listAll();
+        List<EmployeeDTO> userList = employeeService.listAll();
         model.addAttribute("clienteList", userList);
         model.addAttribute("cliente", userList);
 
@@ -85,7 +89,7 @@ public class EmployeeController implements WebMvcConfigurer {
 
     @RequestMapping(value = "/employee/save", method = RequestMethod.POST)
     public String saveEmployee(@ModelAttribute("cliente") Employee employee) {
-        service.save(employee);
+        employeeService.save(employee);
 
         return "redirect:/employee/list";
     }
@@ -93,7 +97,7 @@ public class EmployeeController implements WebMvcConfigurer {
     @RequestMapping(value = "/employee/delete/{id}", method = RequestMethod.GET)
     public String deleteEmployee(@PathVariable("id") long id) {
         // TODO: ROLES MUST HAVE PRIORITY (lower roles cannot edit higher ones!!)
-        service.delete(id);
+        employeeService.delete(id);
         return "redirect:/employee/list";
     }
 }
