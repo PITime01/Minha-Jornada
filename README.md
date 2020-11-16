@@ -46,8 +46,8 @@ O motorista pode registrar sua jornada de trabalho diária desde que tenha reali
 # Login e CRUD de usuários
 Este é o vídeo demostrando o CRUD dos usuários, permissão de acessos e login.
 O software foi desenvolvido com Java, Spring, CSS e HTML.
-A programação referente ao software pode ser acessada pelo link do diretório: [![](http://img.youtube.com/vi/ZR9U2NrcmDA/0.jpg)](http://www.youtube.com/watch?v=ZR9U2NrcmDA "CRUDs")
-
+A programação referente ao software pode ser acessada pelo link do diretório: 
+![CRUDs](https://imgflip.com/gif/4mlxqj)
 # Burndown Sprint 02
 ![image](https://user-images.githubusercontent.com/71779649/98684075-84576380-2344-11eb-88d2-4a1677eb4034.png)
 Conseguimos cumprir os prazos estipulados conforme apresentado no gráfico acima.
