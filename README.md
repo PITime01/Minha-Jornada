@@ -55,7 +55,7 @@ Este é o vídeo demostrando o CRUD de funcionários.
 Este é o vídeo demostrando o CRUD de sindicatos.
 
 ![sindicatos](https://github.com/PITime01/Minha-Jornada/blob/SPRINT-2/sindicatos.gif)
-## CRUD de sindicatos
+## CRUD de motoristas
 Este é o vídeo demostrando o CRUD dos motoristas.
 
 ![motoristas](https://github.com/PITime01/Minha-Jornada/blob/SPRINT-2/motoristas.gif)
