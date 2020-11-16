@@ -8,8 +8,6 @@ import org.springframework.security.config.annotation.web.configuration.WebSecur
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 
-import static com.example.PITime01.domain.Profile.ADMIN;
-
 @EnableWebSecurity
 public class SecurityConfig extends WebSecurityConfigurerAdapter {
 
@@ -30,9 +28,9 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
         http
                 .authorizeRequests()
                 .antMatchers("/").authenticated()
-                .antMatchers("/employee/**").hasAnyAuthority(ADMIN.name())
-                .antMatchers("/union/**").hasAnyAuthority(ADMIN.name())
-                .antMatchers("/driver/**").hasAnyAuthority(ADMIN.name())
+                //.antMatchers("/employee/**").hasAnyAuthority(ADMIN.name())
+                //.antMatchers("/union/**").hasAnyAuthority(ADMIN.name())
+                //.antMatchers("/driver/**").hasAnyAuthority(ADMIN.name())
                 .and().formLogin()
                 .loginPage("/login")
                 .permitAll();

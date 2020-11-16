@@ -25,16 +25,6 @@
                 <div class="column is-5-tablet is-4-desktop is-3-widescreen">
                     <form action="#" th:action="@{/employee/edit}" th:object="${cliente}" method="post" class="box">
                         <div class="field">
-                            <label for="" class="label">ID</label>
-                            <div class="control has-icons-left">
-                                <td> <input class="input" type="text" th:field="*{id}" readonly="readonly"/>
-                                    <span class="icon is-small is-left">
-                              <i class="fa fa-envelope"></i>
-                                </td>
-                                </span>
-                            </div>
-                        </div>
-                        <div class="field">
                             <label for="" class="label">Usuario</label>
                             <div class="control has-icons-left">
                                 <td>
@@ -46,10 +36,10 @@
                             </div>
                         </div>
                         <div class="field">
-                            <label for="" class="label">Matricula</label>
+                            <label class="label" for="">Password</label>
                             <div class="control has-icons-left">
                                 <td>
-                                    <input class="input" type="text" th:field="*{registration}"/>
+                                    <input class="input" th:field="*{password}" type="text"/>
                                     <span class="icon is-small is-left">
                               	<i class="fa fa-lock"></i>
                                 </td>
