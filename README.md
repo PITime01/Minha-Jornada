@@ -45,11 +45,16 @@ O motorista pode registrar sua jornada de trabalho diária desde que tenha reali
 
 # CRUDs
 A programação referente ao software pode ser acessada pelo link do diretório:[CODIGO FONTE](https://github.com/PITime01/Minha-Jornada/tree/master/SPRINT%202/codigo-fonte)
+O software foi desenvolvido com Java, Spring, CSS e HTML.
 ## CRUD de funcionários
 Este é o vídeo demostrando o CRUD de funcionários.
-O software foi desenvolvido com Java, Spring, CSS e HTML.
+
 ![funcionarios](https://github.com/PITime01/Minha-Jornada/blob/SPRINT-2/funcionarios1.gif)
 ## CRUD de sindicatos
+Este é o vídeo demostrando o CRUD de sindicatos.
+
+![sindicatos](https://github.com/PITime01/Minha-Jornada/blob/SPRINT-2/sindicatos.gif)
+
 # Burndown Sprint 02
 ![image](https://user-images.githubusercontent.com/71779649/98684075-84576380-2344-11eb-88d2-4a1677eb4034.png)
 Conseguimos cumprir os prazos estipulados conforme apresentado no gráfico acima.
