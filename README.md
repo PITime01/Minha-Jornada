@@ -43,11 +43,13 @@ O diagrama recebe o cadastros de motoristas, veículos,funcionários, sindicato 
 A senha pode ser trocada por todos os perfis de usuários desde que o administrador tenha liberado acesso ao sistema.
 O motorista pode registrar sua jornada de trabalho diária desde que tenha realizado login.
 
-# Login e CRUD de usuários
-Este é o vídeo demostrando o CRUD dos usuários, permissão de acessos e login.
-O software foi desenvolvido com Java, Spring, CSS e HTML.
+# CRUDs
 A programação referente ao software pode ser acessada pelo link do diretório:[CODIGO FONTE](https://github.com/PITime01/Minha-Jornada/tree/master/SPRINT%202/codigo-fonte)
+## CRUD de funcionários
+Este é o vídeo demostrando o CRUD de funcionários.
+O software foi desenvolvido com Java, Spring, CSS e HTML.
 ![funcionarios](https://github.com/PITime01/Minha-Jornada/blob/SPRINT-2/funcionarios1.gif)
+## CRUD de sindicatos
 # Burndown Sprint 02
 ![image](https://user-images.githubusercontent.com/71779649/98684075-84576380-2344-11eb-88d2-4a1677eb4034.png)
 Conseguimos cumprir os prazos estipulados conforme apresentado no gráfico acima.
