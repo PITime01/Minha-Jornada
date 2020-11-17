@@ -34,11 +34,15 @@
         <tr th:id="'tr' + ${vehicle.id}" th:each="vehicle: ${listVehicles}">
             <td th:text="${vehicle.id}">Id</td>
             <td th:text="${vehicle.chassi}">Chassi</td>
-            <td th:text="${vehicle.tracker_brand}">Tracker Brand</td>
-            <td th:text="${vehicle.tracker_version}">Tracker Version</td>
-            <td th:text="${vehicle.id_integr}">ID Integration</td>
-            <td>  <a th:href="@{'/vehicle/edit/' + ${vehicle.id}}"><button class="button is-warning is-light">Edit</button></a></td>
-            <td>  <a th:href="@{'/vehicle/delete/' + ${vehicle.id}}"><button class="button is-danger is-light">Delete</button></a></td>
+            <td th:text="${vehicle.trackerBrand}">Tracker Brand</td>
+            <td th:text="${vehicle.trackerVersion}">Tracker Version</td>
+            <td th:text="${vehicle.idIntegr}">ID Integration</td>
+            <td><a th:href="@{'/vehicle/edit/' + ${vehicle.id}}">
+                <button class="button is-warning is-light">Edit</button>
+            </a></td>
+            <td><a th:href="@{'/vehicle/delete/' + ${vehicle.id}}">
+                <button class="button is-danger is-light">Delete</button>
+            </a></td>
         </tr>
         </tbody>
     </table>
