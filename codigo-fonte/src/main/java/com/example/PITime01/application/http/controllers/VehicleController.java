@@ -1,8 +1,7 @@
-package com.example.PITime01.controllers;
+package com.example.PITime01.application.http.controllers;
 
-//import com.example.PITime01.employee.Employee;
-import com.example.PITime01.vehicle.Vehicle;
-import com.example.PITime01.vehicle.VehicleService;
+import com.example.PITime01.application.services.VehicleService;
+import com.example.PITime01.domain.Vehicle;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -29,11 +28,11 @@ public class VehicleController {
     }
 
     @RequestMapping("/vehicle/new")
-    public String ShowNewVehicleForm(Model model){
-        Vehicle vehicle=new Vehicle();
-        model.addAttribute("vehicle",vehicle);
+    public String showNewVehicleForm(Model model) {
+        Vehicle vehicle = new Vehicle();
+        model.addAttribute("vehicle", vehicle);
 
-        return viewFolder+"new";
+        return viewFolder + "new";
     }
 
     @RequestMapping(value ="vehicle/save", method= RequestMethod.POST)
@@ -43,10 +42,10 @@ public class VehicleController {
     }
 
     @RequestMapping("/vehicle/edit/{id}")
-    public ModelAndView ShowEditVehicleForm(@PathVariable(name="id") Long id){
-        ModelAndView mav=new ModelAndView("vehicle/edit");
-        Vehicle vehicle=service.get(id);
-        mav.addObject("vehicle",vehicle);
+    public ModelAndView showEditVehicleForm(@PathVariable(name = "id") Long id) {
+        ModelAndView mav = new ModelAndView("vehicle/edit");
+        Vehicle vehicle = service.get(id);
+        mav.addObject("vehicle", vehicle);
         return mav;
     }
 
