@@ -3,7 +3,9 @@ package com.example.PITime01.application.http.controllers;
 import com.example.PITime01.application.dto.EmployeeDTO;
 import com.example.PITime01.application.dto.PasswordDTO;
 import com.example.PITime01.application.services.EmployeeService;
+import com.example.PITime01.application.services.JourneyService;
 import com.example.PITime01.domain.Employee;
+import com.example.PITime01.domain.Journey;
 import com.example.PITime01.domain.Profile;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -100,4 +102,6 @@ public class EmployeeController implements WebMvcConfigurer {
         employeeService.delete(id);
         return "redirect:/employee/list";
     }
+
+
 }

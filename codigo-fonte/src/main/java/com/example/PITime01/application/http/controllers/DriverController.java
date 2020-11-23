@@ -1,10 +1,9 @@
 package com.example.PITime01.application.http.controllers;
 
 import com.example.PITime01.application.services.DriverService;
+import com.example.PITime01.application.services.JourneyService;
 import com.example.PITime01.application.services.UnionService;
-import com.example.PITime01.domain.Driver;
-import com.example.PITime01.domain.Licenses;
-import com.example.PITime01.domain.Union;
+import com.example.PITime01.domain.*;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.ModelAttribute;
@@ -13,6 +12,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
+import java.awt.desktop.SystemSleepEvent;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -21,12 +21,14 @@ public class DriverController implements WebMvcConfigurer {
 
     private final DriverService service;
     private final UnionService unionService;
+    private JourneyService journeyService;
 
     private final String viewFolder = "driver/";
 
-    public DriverController(DriverService service, UnionService serviceUnion) {
+    public DriverController(DriverService service, UnionService serviceUnion,JourneyService journeyService) {
         this.service = service;
         this.unionService = serviceUnion;
+        this.journeyService=journeyService;
     }
 
     @RequestMapping("/driver/new")
@@ -82,6 +84,19 @@ public class DriverController implements WebMvcConfigurer {
     public String deleteDriver(@PathVariable("id") long id) {
         service.delete(id);
         return "redirect:/driver/list";
+    }
+
+    @RequestMapping("/driver/visualize/{id}")
+    public String visualizeEmployee(@PathVariable(name = "id") Long id, Model model) {
+        // TODO: Adicionar um combobox igual o de Perfis que tem na aba NEW, so que pra Status na pagina de EDIT
+        Driver driver=service.get(id);
+        List<Journey> allJourney = journeyService.listAll();
+        allJourney =(allJourney.stream().filter(journey -> id == journey.getIdDriver())).collect(Collectors.toList());
+        model.addAttribute("driver", driver);
+        model.addAttribute("journeyList", allJourney);
+        model.addAttribute("journey", allJourney);
+
+        return viewFolder + "visualize";
     }
 }
 
