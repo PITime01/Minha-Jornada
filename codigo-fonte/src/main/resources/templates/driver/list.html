@@ -35,6 +35,7 @@
             <th>Telefone</th>
             <th>Sindicato</th>
             <th>Email</th>
+            <th>Hour Bank</th>
             <th>Edit</th>
             <th>Delete</th>
         </tr>
@@ -49,6 +50,7 @@
             <td th:text="${driver.telephone}">Telefone</td>
             <td th:text="${driver.unionName}">Sindicato</td>
             <td th:text="${driver.email}">Email</td>
+            <td><a th:href="@{'/driver/visualize/' + ${driver.id}}"><button class="button is-warning is-light">Visualize</button></a></td>
             <td><a th:href="@{'/driver/edit/' + ${driver.id}}">
                 <button class="button is-warning is-light">Edit</button>
             </a></td>
