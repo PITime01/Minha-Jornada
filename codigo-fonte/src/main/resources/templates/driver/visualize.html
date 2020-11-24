@@ -25,22 +25,22 @@
     <table class="table container" style="width: 100%">
         <thead>
         <tr>
-            <th>ID</th>
+            <th>Id</th>
            <!-- <th>ID Driver</th>-->
-            <th>date</th>
-            <th>Working Length</th>
-            <th>Meal Length</th>
-            <th>Break length</th>
+            <th>Data</th>
+            <th>Tempo de Refeição</th>
+            <th>Tempo de Trabalho</th>
+            <th>Tempo de Intervalo</th>
         </tr>
         </thead>
         <tbody>
         <tr th:id="'tr' + ${journey.id}" th:each="journey: ${journeyList}">
             <td th:text="${journey.id}">Id</td>
             <!--<td th:text="${journey.getIdDriver()}">Id Driver</td>-->
-             <td th:text="${journey.date}">Date</td>
-             <td th:text="${journey.mealtime}">Meal Time</td>
-             <td th:text="${journey.workingtime}">Working Time</td>
-             <td th:text="${journey.resttime}">Rest Time</td>
+             <td th:text="${journey.date}">Data</td>
+             <td th:text="${journey.mealtime}">Tempo de Refeição</td>
+             <td th:text="${journey.workingtime}">Tempo de Trabalho</td>
+             <td th:text="${journey.resttime}">Tempo de Intervalo</td>
          </tr>
          </tbody>
      </table>
