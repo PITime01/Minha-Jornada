@@ -20,6 +20,7 @@ public class Journey {
     private float mealtime;
     private float workingtime;
     private float resttime;
+    private String observation;
 
     public Long getIdDriver() {
         return iddriver;

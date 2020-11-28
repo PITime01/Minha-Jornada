@@ -4,5 +4,6 @@ create table springproject.journey(
     date TEXT NOT NULL,
     mealTime float not null,
     workingTime float not null,
-    restTime float not null
+    restTime float not null,
+    observation TEXT
 );
