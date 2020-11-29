@@ -6,6 +6,11 @@
 O manual do usuário possui o intuito de guiar o usuário em relação ao uso do Minha Jornada, orientando o acesso às funcionalidades existentes. 
 ### 2.ACESSO AO SISTEMA
 Acessando o Minha Jornada, a primeira página será para realizar o login.
+
 O login deve ser realizado com seu usuário e senha registrado no sistema.
+
 Caso ainda não tenha estes dados, solicite ao administrador do sistema a realização do cadastro.
+
 Após realizar login, seu acesso será concedido às funcionalidades que seu usuário permite, sendo que somente o administrador possui acesso pleno ao sistema.
+
+![Login](https://j.gifs.com/p8yMor.gif)
