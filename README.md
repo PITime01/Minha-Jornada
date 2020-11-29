@@ -12,25 +12,22 @@
 * Log de usuários
 
 
-
 # User stories atendidas
-[8][9][5][6][11][16][17][20][21]
+[2][3][4][11][12][14][15]
 
 # Requisitos atendidos
-* Requisito 3 - Troca de senha de acesso do motorista.
-* Requisito 4 - Troca de senha do administrativo gestor.
-* Requisito 5 - Troca senha de Equipe RH
-* Requisito 8 - Cadastro do veículo por administrador.
-* Requisito 9 - Exclusão de cadastro do veículo por administrador.
-* Requisito 10 - Cadastro do motorista por administrador.
-* Requisito 11 - Exclusão de cadastro do motorista por administrador.
-* Requisito 13 - Escala (tela) de jornada do motorista.
+* Requisito 14 - Registro de alertas.
+* Requisito 15 - Registro de status.
+* Requisito 23 - Visualização de total de banco de horas do motorista.
+* Requisito 24 - Visualização de total de hora extra do motorista.
+* Requisito 25 - Log de usuários.
 
 # Valor da Sprint 2
-* Possibilitar cadastro de veículos
-* Possibilitar cadastro de motoristas
-* Possibilitar a troca de senha dos usuários
-* Disponibilizar ambiente de registro da jornada do motorista
+* Possibilitar visualizar banco de horas.
+* Possibilitar visualizar as horas extras realizadas.
+* Possibilitar visualizar usuários ativos.
+* Cumprir requisito legal de log de ususários.
+* Registrar alertas de anomalias no turno.
 
 
 # Diagrama de casos de uso
