@@ -2,7 +2,7 @@
 ![Sprint3](https://github.com/PITime01/Minha-Jornada/blob/SPRINT-3/STORY%20CARDS_sprint3.gif)
 
 
-# A sprint 2 abrange os seguintes itens:
+# A sprint 3 abrange os seguintes itens:
 * Status de usuários
 * Registro de alertas
 * Chamada de emergência
@@ -22,7 +22,7 @@
 * Requisito 24 - Visualização de total de hora extra do motorista.
 * Requisito 25 - Log de usuários.
 
-# Valor da Sprint 2
+# Valor da Sprint 3
 * Possibilitar visualizar banco de horas.
 * Possibilitar visualizar as horas extras realizadas.
 * Possibilitar visualizar usuários ativos.
@@ -51,6 +51,6 @@ O software foi desenvolvido com Java, Spring, CSS e HTML.
 ![CRUDs](https://github.com/PITime01/Minha-Jornada/blob/SPRINT-2/crud_final_6.gif)
 
 
-# Burndown Sprint 02
-![image](https://user-images.githubusercontent.com/71779649/98684075-84576380-2344-11eb-88d2-4a1677eb4034.png)
+# Burndown Sprint 03
+![image](https://user-images.githubusercontent.com/71779649/100545232-976d9d00-3239-11eb-8caa-e91f3ab94841.png)
 Conseguimos cumprir os prazos estipulados conforme apresentado no gráfico acima.
