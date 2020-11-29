@@ -3,12 +3,14 @@
 
 
 # A sprint 2 abrange os seguintes itens:
-* CRUD dos motoristas
-* CRUD dos veículos
-* CRUD dos funcionários
-* CRUD dos sindicatos
-* Troca de senha de usuários
-* Tela de registro da jornada do Motorista
+* Status de usuários
+* Registro de alertas
+* Chamada de emergência
+* Visualização hora-extra e banco de horas
+* Manual do usuário
+* Documento plano teste e especificação
+* Log de usuários
+
 
 
 # User stories atendidas
