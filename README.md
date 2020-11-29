@@ -119,7 +119,7 @@ Os usuários previstos estão descritos conforme imagem abaixo:
 # Cronograma de Entregas
 |Data|Entrega|
 |-----|--------|
-|27/09|[SPRINT 0](https://github.com/PITime01/Minha-Jornada/blob/master/SPRINT0/sprint.md)|
+|27/09|[SPRINT 0]https://github.com/PITime01/Minha-Jornada/blob/SPRINT_1/README.md)|
 |18/10|[SPRINT 1](https://github.com/PITime01/Minha-Jornada/blob/master/SPRINT%201/sprint1.md)|
 |08/11|[SPRINT 2](https://github.com/PITime01/Minha-Jornada/blob/master/SPRINT%202/README.md)|
 |29/11|SPRINT 3|
