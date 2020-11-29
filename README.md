@@ -1,5 +1,5 @@
 
-![Sprint2](https://github.com/PITime01/Minha-Jornada/blob/SPRINT-2/SPRINT%202/STORY%20CARDS_sprint2.gif?raw=true)
+![Sprint3](https://github.com/PITime01/Minha-Jornada/blob/SPRINT-3/STORY%20CARDS_sprint3.gif)
 
 
 # A sprint 2 abrange os seguintes itens:
