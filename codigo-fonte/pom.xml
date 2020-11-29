@@ -52,6 +52,10 @@
 			<version>5.4.0</version>
 		</dependency>
 		<dependency>
+			<groupId>org.springframework.data</groupId>
+			<artifactId>spring-data-envers</artifactId>
+		</dependency>
+		<dependency>
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
 			<version>1.18.12</version>
@@ -74,9 +78,9 @@
 					</execution>
 				</executions>
 				<configuration>
-					<url>jdbc:postgresql://tuffi.db.elephantsql.com:5432/qvrgnfeh</url>
-					<user>qvrgnfeh</user>
-					<password>ysHjwDyPbut8VEdRnx3bzxH3WETM3qcV</password>
+					<url>jdbc:postgresql://tuffi.db.elephantsql.com:5432/rhkyrcet</url>
+					<user>rhkyrcet</user>
+					<password>DKIdYWZNejwefC4iA7gd0rx3R6CWO4fn</password>
 					<schemas>
 						<schema>springproject</schema>
 					</schemas>

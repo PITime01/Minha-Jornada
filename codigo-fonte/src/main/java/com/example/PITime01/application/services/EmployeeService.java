@@ -1,6 +1,7 @@
 package com.example.PITime01.application.services;
 
 import com.example.PITime01.application.dto.EmployeeDTO;
+import com.example.PITime01.application.dto.audit.EmployeeAuditDTO;
 import com.example.PITime01.application.http.authentication.MyUserDetails;
 import com.example.PITime01.application.repositories.EmployeeRepository;
 import com.example.PITime01.domain.Employee;
@@ -28,6 +29,13 @@ public class EmployeeService {
         return repository.findAll()
                 .stream()
                 .map(EmployeeDTO::new)
+                .collect(Collectors.toList());
+    }
+
+    public List<EmployeeAuditDTO> listAllAudit() {
+        return repository.findAll()
+                .stream()
+                .map(EmployeeAuditDTO::new)
                 .collect(Collectors.toList());
     }
 

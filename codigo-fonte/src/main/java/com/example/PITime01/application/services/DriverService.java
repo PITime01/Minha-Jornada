@@ -1,5 +1,6 @@
 package com.example.PITime01.application.services;
 
+import com.example.PITime01.application.dto.audit.DriverAuditDTO;
 import com.example.PITime01.application.repositories.DriverRepository;
 import com.example.PITime01.domain.Driver;
 import org.springframework.stereotype.Service;
@@ -31,6 +32,13 @@ public class DriverService {
         return repository.findAll()
                 .stream()
                 .map(Driver::new)
+                .collect(Collectors.toList());
+    }
+
+    public List<DriverAuditDTO> listAllAudit() {
+        return repository.findAll()
+                .stream()
+                .map(DriverAuditDTO::new)
                 .collect(Collectors.toList());
     }
 }

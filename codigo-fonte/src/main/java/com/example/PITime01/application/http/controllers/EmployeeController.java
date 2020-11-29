@@ -28,6 +28,7 @@ public class EmployeeController implements WebMvcConfigurer {
     @GetMapping("/employee/new")
     public String newEmployee(Model model) {
         // TODO: Validar CPF la no HTML com Javascript antes de submeter o formulario!
+
         Employee employee = new Employee();
         model.addAttribute("cliente", employee);
         model.addAttribute("availableProfiles", Profile.values());
@@ -65,7 +66,7 @@ public class EmployeeController implements WebMvcConfigurer {
         // TODO: Adicionar um combobox igual o de Perfis que tem na aba NEW, so que pra Status na pagina de EDIT
         Employee employee = employeeService.findByID(id);
         model.addAttribute("cliente", employee);
-
+        model.addAttribute("availableProfiles", Profile.values());
         return viewFolder + "edit";
     }
 
@@ -100,4 +101,6 @@ public class EmployeeController implements WebMvcConfigurer {
         employeeService.delete(id);
         return "redirect:/employee/list";
     }
+
+
 }
