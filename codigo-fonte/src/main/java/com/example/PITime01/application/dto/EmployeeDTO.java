@@ -30,6 +30,7 @@ public class EmployeeDTO {
         this.status = employee.getStatus();
         this.cpf = employee.getCpf().substring(0, 5) + employee.getCpf().substring(5).replaceAll("[0-9]", "*");
         this.registration = employee.getRegistration();
-
     }
+
+
 }

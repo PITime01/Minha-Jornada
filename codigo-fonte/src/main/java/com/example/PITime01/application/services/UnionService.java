@@ -19,6 +19,10 @@ public class UnionService {
         return repository.findById(id).get();
     }
 
+    public Union findByName(String name) {
+        return repository.findByName(name).get();
+    }
+
     public void save(Union union) {
         repository.save(union);
     }

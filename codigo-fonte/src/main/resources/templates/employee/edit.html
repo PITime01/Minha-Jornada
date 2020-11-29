@@ -8,9 +8,29 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 </head>
 <body>
-
-<div th:replace="fragments/header :: header"></div>
-
+<nav aria-label="main navigation" class="navbar is-primary is-light is-spaced" role="navigation">
+    <div class="navbar-brand">
+        <a aria-expanded="false" aria-label="menu" class="navbar-burger burger" data-target="navbarBasicExample"
+           role="button">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+        </a>
+    </div>
+    <div class="navbar-menu" id="navbarBasicExample">
+        <div class="navbar-start">
+            <a class="navbar-item" href="/">
+                Minha Jornada
+            </a>
+            <a class="navbar-item" href="/employee/list" style="margin-left: 10px">
+                Listagem
+            </a>
+            <a class="navbar-item is-active" href="/employee/new" style="margin-left: 10px">
+                Cadastro de usuario
+            </a>
+        </div>
+    </div>
+</nav>
 <section class="section hero is-light medium">
     <div class="container">
         <h1 class="title">
@@ -25,6 +45,16 @@
                 <div class="column is-5-tablet is-4-desktop is-3-widescreen">
                     <form action="#" th:action="@{/employee/edit}" th:object="${cliente}" method="post" class="box">
                         <div class="field">
+                            <label class="label" for="">ID</label>
+                            <div class="control has-icons-left">
+                                <td><input class="input" readonly="readonly" th:field="*{id}" type="text"/>
+                                    <span class="icon is-small is-left">
+                              <i class="fa fa-envelope"></i>
+                                </td>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="field">
                             <label for="" class="label">Usuario</label>
                             <div class="control has-icons-left">
                                 <td>
@@ -36,10 +66,10 @@
                             </div>
                         </div>
                         <div class="field">
-                            <label class="label" for="">Password</label>
+                            <label class="label" for="">Matricula</label>
                             <div class="control has-icons-left">
                                 <td>
-                                    <input class="input" th:field="*{password}" type="text"/>
+                                    <input class="input" th:field="*{registration}" type="text"/>
                                     <span class="icon is-small is-left">
                               	<i class="fa fa-lock"></i>
                                 </td>
