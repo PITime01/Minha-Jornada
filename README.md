@@ -44,7 +44,7 @@ A senha pode ser trocada por todos os perfis de usuários desde que o administra
 O motorista pode registrar sua jornada de trabalho diária desde que tenha realizado login.
 
 # CRUDs
-A programação referente ao software pode ser acessada pelo link do diretório:[CODIGO FONTE](https://github.com/PITime01/Minha-Jornada/tree/master/SPRINT%202/codigo-fonte)
+A programação referente ao software pode ser acessada pelo link do diretório:[CODIGO FONTE](https://github.com/PITime01/Minha-Jornada/tree/SPRINT-3/codigo-fonte)
 
 O software foi desenvolvido com Java, Spring, CSS e HTML.
 
