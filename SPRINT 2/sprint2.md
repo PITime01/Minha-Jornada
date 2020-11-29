@@ -51,4 +51,4 @@ A programação referente ao software pode ser acessada pelo link do diretório:
 
 # Burndown Sprint 02
 
-[![image](https://github.com/PITime01/Minha-Jornada/blob/master/imagens/Burndown_2.jpg)
+![image](https://github.com/PITime01/Minha-Jornada/blob/master/imagens/Burndown_2.jpg)
