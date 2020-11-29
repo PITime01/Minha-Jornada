@@ -32,7 +32,7 @@
 
 # Diagrama de casos de uso
 
-![Diagrama](https://github.com/PITime01/Minha-Jornada/blob/SPRINT-2/SPRINT%202/Diagrama%20com%20sprint%2002.JPG?raw=true)
+![Diagrama](https://github.com/PITime01/Minha-Jornada/blob/SPRINT-2/SPRINT%202/Diagrama%20sprint02.jpg)
 
 ### Sprint 01
 O diagrama de casos de uso abrange o cadastro de usuários no Minha Jornada, sendo que o cadastro é realizado somente pelo perfil administrador, que possui acesso ao CRUD de usuários.
@@ -43,11 +43,13 @@ O diagrama recebe o cadastros de motoristas, veículos,funcionários, sindicato 
 A senha pode ser trocada por todos os perfis de usuários desde que o administrador tenha liberado acesso ao sistema.
 O motorista pode registrar sua jornada de trabalho diária desde que tenha realizado login.
 
-# Login e CRUD de usuários
-Este é o vídeo demostrando o CRUD dos usuários, permissão de acessos e login.
+# CRUDs
+A programação referente ao software pode ser acessada pelo link do diretório:[CODIGO FONTE](https://github.com/PITime01/Minha-Jornada/tree/master/SPRINT%202/codigo-fonte)
+
 O software foi desenvolvido com Java, Spring, CSS e HTML.
-A programação referente ao software pode ser acessada pelo link do diretório: [Codigo Fonte](https://github.com/PITime01/Minha-Jornada/tree/master/SPRINT%201/codigo-fonte)
-![Login](https://j.gifs.com/4Q7n81.gif)
+
+![CRUDs](https://github.com/PITime01/Minha-Jornada/blob/SPRINT-2/crud_final_6.gif)
+
 
 # Burndown Sprint 02
 ![image](https://user-images.githubusercontent.com/71779649/98684075-84576380-2344-11eb-88d2-4a1677eb4034.png)
