@@ -122,7 +122,7 @@ Os usuários previstos estão descritos conforme imagem abaixo:
 |27/09|[SPRINT 0](https://github.com/PITime01/Minha-Jornada/blob/SPRINT_0/README.md)|
 |18/10|[SPRINT 1](https://github.com/PITime01/Minha-Jornada/blob/SPRINT_1/README.md)|
 |08/11|[SPRINT 2](https://github.com/PITime01/Minha-Jornada/blob/SPRINT-2/README.md)|
-|29/11|SPRINT 3|
+|29/11|[SPRINT 3](https://github.com/PITime01/Minha-Jornada/blob/SPRINT-3/README.md)|
 
 
 
