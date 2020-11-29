@@ -15,7 +15,7 @@ Após realizar login, seu acesso será concedido às funcionalidades que seu usu
 
 ![Login](https://j.gifs.com/p8yMor.gif)
 
-### 2.CADASTRO DE FUNCIONÁRIO
+### 3.CADASTRO DE FUNCIONÁRIO
 O cadastro de funcionário pode ser realizado somente pela função administrador.
 
 É possível cadastrar um funcionário, editar e remover.
@@ -32,6 +32,7 @@ III Selecionar o que deseja fazer:
     
     * Listagem: abre a pagina com os funcionários cadastrados e permite a remoção/edição de cada funcionário cadastrado.
     
-Obs.: O cadastrado de funcionário exige que o CPF seja dgitado corretamente, com todos os números previstos. O campo preenche automaticamente os pontos e traço.
+Obs.: O cadastrado de funcionário exige que o CPF seja digitado corretamente, com todos os números previstos. O campo preenche automaticamente os pontos e traço.
 ![Login](https://github.com/PITime01/Minha-Jornada/blob/SPRINT-3/SPRINT%203/funcionario_1.gif)
 
+### 4.CADASTRO DE FUNCIONÁRIO
