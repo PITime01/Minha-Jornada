@@ -35,4 +35,23 @@ III Selecionar o que deseja fazer:
 Obs.: O cadastrado de funcionário exige que o CPF seja digitado corretamente, com todos os números previstos. O campo preenche automaticamente os pontos e traço.
 ![Login](https://github.com/PITime01/Minha-Jornada/blob/SPRINT-3/SPRINT%203/funcionario_1.gif)
 
-### 4.CADASTRO DE FUNCIONÁRIO
+### 4.CADASTRO DE SINDICATO
+O cadastro de sindicato pode ser realizado somente pela função administrador.
+
+É possível cadastrar um sindicato, editar e remover.
+
+Como acessar:
+
+I Realizar login
+
+II Acessar o menu sindicato no cabeçalho (header) da página.
+
+III Selecionar o que deseja fazer:
+
+    * Cadastro de Sindicato: abre a página para cadastrar um novo sindicato
+    
+    * Listagem: abre a pagina com os sindicatos cadastrados e permite a remoção/edição de cada sindicato cadastrado.
+    
+![Login](https://github.com/PITime01/Minha-Jornada/blob/SPRINT-3/SPRINT%203/sindicato.gif)
+
+    
