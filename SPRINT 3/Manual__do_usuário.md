@@ -3,13 +3,13 @@
 <p align="center"><img src=https://user-images.githubusercontent.com/60778277/100552876-b6375800-3268-11eb-9b46-ae76032d2ed3.JPG ></p>
 
 # Índice
-* [INTRODUÇÃO](https://github.com/PITime01/Minha-Jornada/blob/master/README.md#minha-jornada)
-* [ACESSO AO SISTEMA](https://github.com/PITime01/Minha-Jornada/blob/master/README.md#vis%C3%A3o-da-solu%C3%A7%C3%A3o)
-* [CADASTRO DE FUNCIONÁRIO](https://github.com/PITime01/Minha-Jornada/blob/master/README.md#benef%C3%ADcios)
-* [CADASTRO DE SINDICATO](https://github.com/PITime01/Minha-Jornada/blob/master/README.md#principais-deliverables)
-* [CADASTRO DE MOTORISTA](https://github.com/PITime01/Minha-Jornada/blob/master/README.md#limites-e-restri%C3%A7%C3%B5es-da-solu%C3%A7%C3%A3o)
-* [BANCO DE HORAS](https://github.com/PITime01/Minha-Jornada/blob/master/README.md#user-roles)
-* [LOG DE USUÁRIOS](https://github.com/PITime01/Minha-Jornada/blob/master/README.md#user-stories)
+* [INTRODUÇÃO](https://github.com/PITime01/Minha-Jornada/blob/SPRINT-3/SPRINT%203/Manual__do_usu%C3%A1rio.md#1introdu%C3%A7%C3%A3o)
+* [ACESSO AO SISTEMA](https://github.com/PITime01/Minha-Jornada/blob/SPRINT-3/SPRINT%203/Manual__do_usu%C3%A1rio.md#2acesso-ao-sistema)
+* [CADASTRO DE FUNCIONÁRIO](https://github.com/PITime01/Minha-Jornada/blob/SPRINT-3/SPRINT%203/Manual__do_usu%C3%A1rio.md#3cadastro-de-funcion%C3%A1rio)
+* [CADASTRO DE SINDICATO](https://github.com/PITime01/Minha-Jornada/blob/SPRINT-3/SPRINT%203/Manual__do_usu%C3%A1rio.md#4cadastro-de-sindicato)
+* [CADASTRO DE MOTORISTA](https://github.com/PITime01/Minha-Jornada/blob/SPRINT-3/SPRINT%203/Manual__do_usu%C3%A1rio.md#5cadastro-de-motorista)
+* [BANCO DE HORAS](https://github.com/PITime01/Minha-Jornada/blob/SPRINT-3/SPRINT%203/Manual__do_usu%C3%A1rio.md#6banco-de-horas)
+* [LOG DE USUÁRIOS](https://github.com/PITime01/Minha-Jornada/blob/SPRINT-3/SPRINT%203/Manual__do_usu%C3%A1rio.md#6log-de-usu%C3%A1rios)
 
 
 ### 1.INTRODUÇÃO
@@ -100,7 +100,7 @@ IV Clicar em visualizar no funcionário desejado para visualizar o banco de hora
 
 ![banco](https://github.com/PITime01/Minha-Jornada/blob/SPRINT-3/SPRINT%203/bch.gif)
 
-### 6.LOG DE USUÁRIOS
+### 7.LOG DE USUÁRIOS
 No menu de motoristas é possível visualizar o banco de horas.
 Como acessar:
 
