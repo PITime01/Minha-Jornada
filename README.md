@@ -17,13 +17,25 @@
 # Dev Team
 * Barbara Bidoia Bidetti - PO
 
+     [Barbara-BB: GitHub](https://github.com/Barbara-BB)
+     
+     [Barbara Bidetti: Linkedin](https://www.linkedin.com/in/barbara-bidetti-bb910a1b3)
+
 * José Alberto Martins de França - Scrum Master
 
+[Barbara Bidetti: Linkedin](https://www.linkedin.com/in/jos%C3%A9-alberto-martins-de-fran%C3%A7a-041506170/)
+
 * Carolina Margiotti de Abreu - DEV Team
+
+     [Carolina Margiotti: GitHub](https://github.com/CarolinaMargiotti)
+     
+     [Carolina Margiotti: Linkedin](https://www.linkedin.com/in/carolina-margiotti-703897193/)
 
 * Davi das Neves Machado - DEV Team
 
 * Henrique Erzinger Dousseau - DEV Team
+
+     [Henrique: GitHub](https://github.com/henrique73)
 
 * Luis Gabriel Verola Santos - DEV Team
 
