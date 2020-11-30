@@ -74,4 +74,29 @@ III Selecionar o que deseja fazer:
 Obs.: Os sindicatos disponíveis para vincular ao motorista são os sindicatos cadastrados no sistema.
     
 ![motorista](https://github.com/PITime01/Minha-Jornada/blob/SPRINT-3/SPRINT%203/motorista.gif)
-    
+
+### 6.BANCO DE HORAS
+No menu de motoristas é possível visualizar o banco de horas.
+Como acessar:
+
+I Realizar login
+
+II Acessar o menu motorista no cabeçalho (header) da página
+
+III Acessar a listagem
+
+IV Clicar em visualizar no funcionário desejado para visualizar o banco de horas
+
+![banco](https://github.com/PITime01/Minha-Jornada/blob/SPRINT-3/SPRINT%203/bch.gif)
+
+### 6.LOG DE USUÁRIOS
+No menu de motoristas é possível visualizar o banco de horas.
+Como acessar:
+
+I Realizar login
+
+II Acessar o menu Funcionario no cabeçalho (header) da página
+
+III Acessar a Logs
+
+![log](https://github.com/PITime01/Minha-Jornada/blob/SPRINT-3/SPRINT%203/log2.gif)
