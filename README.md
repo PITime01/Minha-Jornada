@@ -38,6 +38,7 @@
 * [story Card](https://github.com/PITime01/Minha-Jornada/blob/master/README.md#story-card)
 * [Artefatos e Tecnologias](https://github.com/PITime01/Minha-Jornada#artefatos-e-tecnologias)
 * [Cronograma de Entregas](https://github.com/PITime01/Minha-Jornada#cronograma-de-entegras)
+* [Manual do Usuário](https://github.com/PITime01/Minha-Jornada/blob/master/README.md#manual-do-usu%C3%A1rio)
 
 
 # Minha-Jornada
