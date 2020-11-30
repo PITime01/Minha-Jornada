@@ -1,6 +1,5 @@
 package com.example.PITime01.application.http.controllers;
 
-import org.springframework.core.Ordered;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -13,7 +12,7 @@ public class ApplicationController implements WebMvcConfigurer {
     @Override
     public void addViewControllers(ViewControllerRegistry registry) {
         registry.addViewController("/login").setViewName("login");
-        registry.setOrder(Ordered.HIGHEST_PRECEDENCE);
+        registry.setOrder(1);
     }
 
     @RequestMapping("/")

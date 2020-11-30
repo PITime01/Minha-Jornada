@@ -6,6 +6,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 import org.springframework.data.domain.AuditorAware;
 import org.springframework.data.jpa.repository.config.EnableJpaAuditing;
+import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 
 @SpringBootApplication
 @EnableJpaAuditing(auditorAwareRef = "auditorAware")
@@ -20,4 +21,8 @@ public class PiTime01Application {
         return new AuditorAwareImpl();
     }
 
+    @Bean
+    public BCryptPasswordEncoder getBCryptPasswordEncoder() {
+        return new BCryptPasswordEncoder();
+    }
 }
