@@ -2,8 +2,19 @@
 
 <p align="center"><img src=https://user-images.githubusercontent.com/60778277/100552876-b6375800-3268-11eb-9b46-ae76032d2ed3.JPG ></p>
 
+# Índice
+* [INTRODUÇÃO](https://github.com/PITime01/Minha-Jornada/blob/master/README.md#minha-jornada)
+* [ACESSO AO SISTEMA](https://github.com/PITime01/Minha-Jornada/blob/master/README.md#vis%C3%A3o-da-solu%C3%A7%C3%A3o)
+* [CADASTRO DE FUNCIONÁRIO](https://github.com/PITime01/Minha-Jornada/blob/master/README.md#benef%C3%ADcios)
+* [CADASTRO DE SINDICATO](https://github.com/PITime01/Minha-Jornada/blob/master/README.md#principais-deliverables)
+* [CADASTRO DE MOTORISTA](https://github.com/PITime01/Minha-Jornada/blob/master/README.md#limites-e-restri%C3%A7%C3%B5es-da-solu%C3%A7%C3%A3o)
+* [BANCO DE HORAS](https://github.com/PITime01/Minha-Jornada/blob/master/README.md#user-roles)
+* [LOG DE USUÁRIOS](https://github.com/PITime01/Minha-Jornada/blob/master/README.md#user-stories)
+
+
 ### 1.INTRODUÇÃO
 O manual do usuário possui o intuito de guiar o usuário em relação ao uso do Minha Jornada, orientando o acesso às funcionalidades existentes. 
+
 ### 2.ACESSO AO SISTEMA
 Acessando o Minha Jornada, a primeira página será para realizar o login.
 
