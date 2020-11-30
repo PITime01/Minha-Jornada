@@ -4,7 +4,6 @@ import com.example.PITime01.application.dto.audit.DriverAuditDTO;
 import com.example.PITime01.application.dto.audit.EmployeeAuditDTO;
 import com.example.PITime01.application.dto.audit.UnionAuditDTO;
 import com.example.PITime01.application.dto.audit.VehicleAuditDTO;
-import com.example.PITime01.application.repositories.EmployeeRepository;
 import com.example.PITime01.application.services.DriverService;
 import com.example.PITime01.application.services.EmployeeService;
 import com.example.PITime01.application.services.UnionService;
@@ -19,15 +18,13 @@ import java.util.List;
 @Controller
 public class LogsController implements WebMvcConfigurer {
 
-    private final EmployeeRepository employeeRepository;
 
     private final EmployeeService employeeService;
     private final UnionService unionService;
     private final DriverService driverService;
     private final VehicleService vehicleService;
 
-    public LogsController(EmployeeRepository employeeRepository, EmployeeService employeeService, UnionService unionService, DriverService driverService, VehicleService vehicleService) {
-        this.employeeRepository = employeeRepository;
+    public LogsController(EmployeeService employeeService, UnionService unionService, DriverService driverService, VehicleService vehicleService) {
         this.employeeService = employeeService;
         this.unionService = unionService;
         this.driverService = driverService;
@@ -39,9 +36,23 @@ public class LogsController implements WebMvcConfigurer {
 
         List<EmployeeAuditDTO> rep = employeeService.listAllAudit();
         model.addAttribute("clienteList", rep);
-        model.addAttribute("cliente", rep);
 
         return "employee/audit";
+    }
+
+    @RequestMapping("audit")
+    public String auditAllEmployee(Model model) {
+
+        List<EmployeeAuditDTO> rep = employeeService.listAllAudit();
+        List<UnionAuditDTO> rep2 = unionService.listAllAudit();
+        List<DriverAuditDTO> rep3 = driverService.listAllAudit();
+        List<VehicleAuditDTO> rep4 = vehicleService.listAllAudit();
+        model.addAttribute("clienteList", rep);
+        model.addAttribute("unionList", rep2);
+        model.addAttribute("driverList", rep3);
+        model.addAttribute("vehicleList", rep4);
+
+        return "audit";
     }
 
     @RequestMapping("union/audit")
