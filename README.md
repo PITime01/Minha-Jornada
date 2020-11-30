@@ -8,7 +8,6 @@
 * Chamada de emergência
 * Visualização hora-extra e banco de horas
 * Manual do usuário
-* Documento plano teste e especificação
 * Log de usuários
 
 
