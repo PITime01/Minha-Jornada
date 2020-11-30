@@ -33,7 +33,7 @@ III Selecionar o que deseja fazer:
     * Listagem: abre a pagina com os funcionários cadastrados e permite a remoção/edição de cada funcionário cadastrado.
     
 Obs.: O cadastrado de funcionário exige que o CPF seja digitado corretamente, com todos os números previstos. O campo preenche automaticamente os pontos e traço.
-![Login](https://github.com/PITime01/Minha-Jornada/blob/SPRINT-3/SPRINT%203/funcionario_1.gif)
+![funcionario](https://github.com/PITime01/Minha-Jornada/blob/SPRINT-3/SPRINT%203/funcionario_1.gif)
 
 ### 4.CADASTRO DE SINDICATO
 O cadastro de sindicato pode ser realizado somente pela função administrador.
@@ -52,7 +52,26 @@ III Selecionar o que deseja fazer:
     
     * Listagem: abre a pagina com os sindicatos cadastrados e permite a remoção/edição de cada sindicato cadastrado.
     
-![Login](https://github.com/PITime01/Minha-Jornada/blob/SPRINT-3/SPRINT%203/sindicato.gif)
+![sindicato](https://github.com/PITime01/Minha-Jornada/blob/SPRINT-3/SPRINT%203/sindicato.gif)
 
 ### 5.CADASTRO DE MOTORISTA
+O cadastro de sindicato pode ser realizado somente pela função administrador.
+
+É possível cadastrar um sindicato, editar e remover.
+
+Como acessar:
+
+I Realizar login
+
+II Acessar o menu motorista no cabeçalho (header) da página.
+
+III Selecionar o que deseja fazer:
+
+    * Cadastro de Motorista: abre a página para cadastrar um novo motorista
+    
+    * Listagem: abre a pagina com os motoristas cadastrados e permite a remoção/edição de cada motorista cadastrado.
+    
+Obs.: Os sindicatos disponíveis para vincular ao motorista são os sindicatos cadastrados no sistema.
+    
+![motorista](https://github.com/PITime01/Minha-Jornada/blob/SPRINT-3/SPRINT%203/motorista.gif)
     
