@@ -23,7 +23,7 @@
 
 * José Alberto Martins de França - Scrum Master
 
-[Barbara Bidetti: Linkedin](https://www.linkedin.com/in/jos%C3%A9-alberto-martins-de-fran%C3%A7a-041506170/)
+     [José Alberto Martins de França: Linkedin](https://www.linkedin.com/in/jos%C3%A9-alberto-martins-de-fran%C3%A7a-041506170/)
 
 * Carolina Margiotti de Abreu - DEV Team
 
