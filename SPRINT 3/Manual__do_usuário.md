@@ -9,7 +9,7 @@
 * [CADASTRO DE SINDICATO](https://github.com/PITime01/Minha-Jornada/blob/SPRINT-3/SPRINT%203/Manual__do_usu%C3%A1rio.md#4cadastro-de-sindicato)
 * [CADASTRO DE MOTORISTA](https://github.com/PITime01/Minha-Jornada/blob/SPRINT-3/SPRINT%203/Manual__do_usu%C3%A1rio.md#5cadastro-de-motorista)
 * [BANCO DE HORAS](https://github.com/PITime01/Minha-Jornada/blob/SPRINT-3/SPRINT%203/Manual__do_usu%C3%A1rio.md#6banco-de-horas)
-* [LOG DE USUÁRIOS](https://github.com/PITime01/Minha-Jornada/blob/SPRINT-3/SPRINT%203/Manual__do_usu%C3%A1rio.md#6log-de-usu%C3%A1rios)
+* [LOG DE USUÁRIOS](https://github.com/PITime01/Minha-Jornada/blob/SPRINT-3/SPRINT%203/Manual__do_usu%C3%A1rio.md#7log-de-usu%C3%A1rios)
 
 
 ### 1.INTRODUÇÃO
