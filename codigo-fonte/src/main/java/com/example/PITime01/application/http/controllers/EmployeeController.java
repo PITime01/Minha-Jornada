@@ -5,10 +5,12 @@ import com.example.PITime01.application.dto.PasswordDTO;
 import com.example.PITime01.application.services.EmployeeService;
 import com.example.PITime01.domain.Employee;
 import com.example.PITime01.domain.Profile;
+import org.springframework.core.Ordered;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.*;
+import org.springframework.web.servlet.config.annotation.ViewControllerRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
 import java.util.List;
@@ -59,6 +61,12 @@ public class EmployeeController implements WebMvcConfigurer {
 
         employeeService.changePassword(passwordDto.getNewPassword());
         return "redirect:/";
+    }
+
+    @Override
+    public void addViewControllers(ViewControllerRegistry registry) {
+        registry.addViewController("/driver/login").setViewName("driver/login");
+        registry.setOrder(Ordered.HIGHEST_PRECEDENCE);
     }
 
     @RequestMapping("/employee/edit/{id}")

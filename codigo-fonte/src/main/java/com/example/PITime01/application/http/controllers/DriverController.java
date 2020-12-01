@@ -1,19 +1,16 @@
 package com.example.PITime01.application.http.controllers;
 
 import com.example.PITime01.application.services.DriverService;
+import com.example.PITime01.application.services.EmployeeService;
 import com.example.PITime01.application.services.JourneyService;
 import com.example.PITime01.application.services.UnionService;
-import com.example.PITime01.domain.Driver;
-import com.example.PITime01.domain.Journey;
-import com.example.PITime01.domain.Licenses;
-import com.example.PITime01.domain.Union;
+import com.example.PITime01.domain.*;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.servlet.config.annotation.ViewControllerRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
 import java.util.List;
@@ -25,13 +22,15 @@ public class DriverController implements WebMvcConfigurer {
     private final DriverService service;
     private final UnionService unionService;
     private final JourneyService journeyService;
+    private final EmployeeService employeeService;
 
     private final String viewFolder = "driver/";
 
-    public DriverController(DriverService service, UnionService serviceUnion,JourneyService journeyService) {
+    public DriverController(DriverService service, UnionService serviceUnion, JourneyService journeyService, EmployeeService employeeService) {
         this.service = service;
         this.unionService = serviceUnion;
-        this.journeyService=journeyService;
+        this.journeyService = journeyService;
+        this.employeeService = employeeService;
     }
 
     @RequestMapping("/driver/new")
@@ -49,6 +48,15 @@ public class DriverController implements WebMvcConfigurer {
     @RequestMapping(value = "/driver/save", method = RequestMethod.POST)
     public String saveDriver(@ModelAttribute("driver") Driver driver) {
         service.save(driver);
+        Employee employee = new Employee();
+        employee.setName((driver.getName() + "." + driver.getSurname()).toLowerCase());
+        employee.setPassword(driver.getPassword());
+        employee.setCpf("111.111.11-11");
+        employee.setProfile(Profile.DRIVER);
+        employee.setRegistration("Driver.00" + driver.getId());
+        employee.setStatus(Status.ACTIVE);
+        employeeService.save(employee);
+
 
         return "redirect:/driver/list";
     }
@@ -83,24 +91,24 @@ public class DriverController implements WebMvcConfigurer {
         return viewFolder + "edit";
     }
 
-    @Override
-    public void addViewControllers(ViewControllerRegistry registry) {
-        registry.addViewController("/driver/login").setViewName("driverInterface/login");
-        registry.setOrder(2);
-    }
-
     @RequestMapping(value = "/driver/delete/{id}", method = RequestMethod.GET)
     public String deleteDriver(@PathVariable("id") long id) {
         service.delete(id);
         return "redirect:/driver/list";
     }
 
+    @RequestMapping("/indexDriver")
+    public String userHomePage(Model model) {
+
+        return "driver/indexDriver";
+    }
+
     @RequestMapping("/driver/visualize/{id}")
     public String visualizeEmployee(@PathVariable(name = "id") Long id, Model model) {
         // TODO: Adicionar um combobox igual o de Perfis que tem na aba NEW, so que pra Status na pagina de EDIT
-        Driver driver=service.get(id);
+        Driver driver = service.get(id);
         List<Journey> allJourney = journeyService.listAll();
-        allJourney =(allJourney.stream().filter(journey -> id == journey.getIdDriver())).collect(Collectors.toList());
+        allJourney = (allJourney.stream().filter(journey -> id == journey.getIdDriver())).collect(Collectors.toList());
         model.addAttribute("driver", driver);
         model.addAttribute("journeyList", allJourney);
         model.addAttribute("journey", allJourney);
