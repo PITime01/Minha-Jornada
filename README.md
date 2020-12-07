@@ -47,7 +47,7 @@ A programação referente ao software pode ser acessada pelo link do diretório:
 
 O software foi desenvolvido com Java, Spring, CSS e HTML.
 
-![CRUDs](https://github.com/PITime01/Minha-Jornada/blob/SPRINT-2/crud_final_6.gif)
+![CRUDs](https://github.com/PITime01/Minha-Jornada/blob/master/sprint3%2000_00_00-00_00_30~2.gif)
 
 
 # Burndown Sprint 03
