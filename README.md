@@ -42,6 +42,10 @@ O diagrama recebe o cadastros de motoristas, veículos,funcionários, sindicato 
 A senha pode ser trocada por todos os perfis de usuários desde que o administrador tenha liberado acesso ao sistema.
 O motorista pode registrar sua jornada de trabalho diária desde que tenha realizado login.
 
+### Sprint 03
+O diagrama recebe o log de usuários e banco de horas do Minha Jornada, sendo que o banco de horas pode ser pesquisado por data para cada usuário..
+
+
 # CRUDs
 A programação referente ao software pode ser acessada pelo link do diretório:[CODIGO FONTE](https://github.com/PITime01/Minha-Jornada/tree/SPRINT-3/codigo-fonte)
 
@@ -51,5 +55,5 @@ O software foi desenvolvido com Java, Spring, CSS e HTML.
 
 
 # Burndown Sprint 03
-![image](https://user-images.githubusercontent.com/71779649/100545232-976d9d00-3239-11eb-8caa-e91f3ab94841.png)
+![image](![image](https://user-images.githubusercontent.com/60778277/101359096-8dbbe900-387a-11eb-855c-076aa7548fd2.png)
 Conseguimos cumprir os prazos estipulados conforme apresentado no gráfico acima.
