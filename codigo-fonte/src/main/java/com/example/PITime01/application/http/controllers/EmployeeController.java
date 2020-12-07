@@ -3,14 +3,14 @@ package com.example.PITime01.application.http.controllers;
 import com.example.PITime01.application.dto.EmployeeDTO;
 import com.example.PITime01.application.dto.PasswordDTO;
 import com.example.PITime01.application.services.EmployeeService;
-import com.example.PITime01.application.services.JourneyService;
 import com.example.PITime01.domain.Employee;
-import com.example.PITime01.domain.Journey;
 import com.example.PITime01.domain.Profile;
+import org.springframework.core.Ordered;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.*;
+import org.springframework.web.servlet.config.annotation.ViewControllerRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
 import java.util.List;
@@ -30,6 +30,7 @@ public class EmployeeController implements WebMvcConfigurer {
     @GetMapping("/employee/new")
     public String newEmployee(Model model) {
         // TODO: Validar CPF la no HTML com Javascript antes de submeter o formulario!
+
         Employee employee = new Employee();
         model.addAttribute("cliente", employee);
         model.addAttribute("availableProfiles", Profile.values());
@@ -62,12 +63,18 @@ public class EmployeeController implements WebMvcConfigurer {
         return "redirect:/";
     }
 
+    @Override
+    public void addViewControllers(ViewControllerRegistry registry) {
+        registry.addViewController("/driver/login").setViewName("driver/login");
+        registry.setOrder(Ordered.HIGHEST_PRECEDENCE);
+    }
+
     @RequestMapping("/employee/edit/{id}")
     public String editEmployee(@PathVariable(name = "id") Long id, Model model) {
         // TODO: Adicionar um combobox igual o de Perfis que tem na aba NEW, so que pra Status na pagina de EDIT
         Employee employee = employeeService.findByID(id);
         model.addAttribute("cliente", employee);
-
+        model.addAttribute("availableProfiles", Profile.values());
         return viewFolder + "edit";
     }
 

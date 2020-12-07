@@ -75,13 +75,15 @@
                                     </span>
                                 </div>
                             </div>
+
                             <div class="field">
                                 <label for="" class="label">Perfil</label>
                                 <div class="control has-icons-left">
                                     <td>
                                         <div class="select" style="width: 100%;">
                                             <select th:field="*{profile}" style="width: 100%;">
-                                                <option th:each="profile : ${availableProfiles}" th:value="${profile}"
+                                                <option th:each="profile : ${availableProfiles}"
+                                                        th:if="${profile.label!='Motorista'}" th:value="${profile}"
                                                         th:text="${profile.label}"></option>
                                             </select>
                                         </div>
@@ -89,7 +91,8 @@
                                     </span>
                                 </div>
                             </div>
-                            <div class="field" id="savebutton">
+
+                        <div class="field" id="savebutton">
                                 <button class="button is-success">
                                     Registrar
                                 </button>

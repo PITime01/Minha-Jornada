@@ -42,7 +42,7 @@
                 <td th:text="${cliente.profile.label}">Profile</td>
                 <td th:text="${cliente.status.label}">Status</td>
                 <td th:text="${cliente.cpf}">CPF</td>
-                <td th:text="${cliente.registration}">Registration</td>
+                <td th:text="${cliente.registration}">Mátricula</td>
                 <td>  <a th:href="@{'/employee/edit/' + ${cliente.id}}"><button class="button is-warning is-light">Edit</button></a></td>
                 <td>  <a th:href="@{'/employee/delete/' + ${cliente.id}}"><button class="button is-danger is-light">Delete</button></a></td>
         </tr>

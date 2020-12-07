@@ -1,5 +1,6 @@
 package com.example.PITime01.application.services;
 
+import com.example.PITime01.application.dto.audit.UnionAuditDTO;
 import com.example.PITime01.application.repositories.UnionRepository;
 import com.example.PITime01.domain.Union;
 import org.springframework.stereotype.Service;
@@ -19,6 +20,10 @@ public class UnionService {
         return repository.findById(id).get();
     }
 
+    public Union findByName(String name) {
+        return repository.findByName(name).get();
+    }
+
     public void save(Union union) {
         repository.save(union);
     }
@@ -31,6 +36,13 @@ public class UnionService {
         return repository.findAll()
                 .stream()
                 .map(Union::new)
+                .collect(Collectors.toList());
+    }
+
+    public List<UnionAuditDTO> listAllAudit() {
+        return repository.findAll()
+                .stream()
+                .map(UnionAuditDTO::new)
                 .collect(Collectors.toList());
     }
 }

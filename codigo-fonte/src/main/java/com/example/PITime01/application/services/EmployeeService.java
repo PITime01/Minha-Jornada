@@ -1,11 +1,14 @@
 package com.example.PITime01.application.services;
 
 import com.example.PITime01.application.dto.EmployeeDTO;
+import com.example.PITime01.application.dto.audit.EmployeeAuditDTO;
 import com.example.PITime01.application.http.authentication.MyUserDetails;
 import com.example.PITime01.application.repositories.EmployeeRepository;
 import com.example.PITime01.domain.Employee;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.context.SecurityContextHolder;
+import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
@@ -15,7 +18,11 @@ import java.util.stream.Collectors;
 @Service
 public class EmployeeService {
 
+    @Autowired
     private final EmployeeRepository repository;
+
+    @Autowired
+    BCryptPasswordEncoder bCryptPasswordEncoder;
 
     private final PasswordEncoder passwordEncoder;
 
@@ -28,6 +35,13 @@ public class EmployeeService {
         return repository.findAll()
                 .stream()
                 .map(EmployeeDTO::new)
+                .collect(Collectors.toList());
+    }
+
+    public List<EmployeeAuditDTO> listAllAudit() {
+        return repository.findAll()
+                .stream()
+                .map(EmployeeAuditDTO::new)
                 .collect(Collectors.toList());
     }
 

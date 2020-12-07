@@ -16,7 +16,7 @@
 <section class="section hero is-light medium">
     <div class="container">
         <h1 class="title">
-            Criação de motoristas
+            Registrar nova jornada
         </h1>
     </div>
 </section>
@@ -38,18 +38,6 @@
                             </div>
                         </div>
                         <div class="field">
-                            <label class="label" for="">Senha</label>
-                            <div class="control has-icons-left">
-                                <td>
-                                    <input class="input" id="password" name="password" placeholder="*******"
-                                           required th:field="*{password}" type="password">
-                                    <span class="icon is-small is-left">
-                              	<i class="fa fa-lock"></i>
-                                </td>
-                                </span>
-                            </div>
-                        </div>
-                        <div class="field">
                             <label class="label" for="">Sobrenome</label>
                             <div class="control has-icons-left">
                                 <td><input class="input" id="Sobrenome" name="sobrenome"
@@ -62,14 +50,14 @@
                             </div>
                         </div>
                         <div class="field">
-                            <label class="label" for="">Categoria da Habilitada</label>
+                            <label class="label" for="">Turno</label>
                             <div class="control has-icons-left">
                                 <td>
                                     <div class="select" style="width: 100%;">
-                                        <select style="width: 100%;" th:field="*{categoryLicense}">
-                                            <option th:each="categoryLicense : ${availableLicenses}"
-                                                    th:text="${categoryLicense.label}"
-                                                    th:value="${categoryLicense}"></option>
+                                        <select style="width: 100%;" th:field="*{working_hours}">
+                                            <option th:each="working_hours : ${availableworking_hours}"
+                                                    th:text="${working_hours.label}"
+                                                    th:value="${working_hours}"></option>
                                         </select>
                                     </div>
                                 </td>
@@ -77,11 +65,11 @@
                             </div>
                         </div>
                         <div class="field">
-                            <label class="label" for="">Ano de admissão</label>
+                            <label class="label" for="">Hora de almoço</label>
                             <div class="control has-icons-left">
-                                <td><input class="input" id="yearAdmission" name="yearAdmission"
-                                           placeholder="Ano de admissão"
-                                           required th:field="*{yearAdmission}" type="integer">
+                                <td><input class="input" id="lunch_time" name="lunch_time"
+                                           placeholder="lunch_time"
+                                           required th:field="*{lunch_time}" type="text">
                                     <span class="icon is-small is-left">
                               <i class="fa fa-envelope"></i>
                                 </td>
@@ -89,24 +77,14 @@
                             </div>
                         </div>
                         <div class="field">
-                            <label class="label" for="">Telefone</label>
-                            <div class="control has-icons-left">
-                                <td><input class="input" id="telefone" name="telefone" placeholder="telefone"
-                                           required th:field="*{telephone}" type="number">
-                                    <span class="icon is-small is-left">
-                              <i class="fa fa-envelope"></i>
-                                </td>
-                                </span>
-                            </div>
-                        </div>
-                        <div class="field">
-                            <label class="label" for="">Sindicato</label>
+                            <label class="label" for="">Fracionar almoço</label>
                             <div class="control has-icons-left">
                                 <td>
                                     <div class="select" style="width: 100%;">
-                                        <select style="width: 100%;" th:field="*{unionName}">
-                                            <option th:each="union: ${unionList}" th:text="${union}"
-                                                    th:value="${union}"></option>
+                                        <select style="width: 100%;" th:field="*{second_fraction}">
+                                            <option th:each="second_fraction : ${availablesecond_fraction}"
+                                                    th:text="${second_fraction.label}"
+                                                    th:value="${second_fraction}"></option>
                                         </select>
                                     </div>
                                 </td>
@@ -114,16 +92,60 @@
                             </div>
                         </div>
                         <div class="field">
-                            <label class="label" for="">Email</label>
+                            <label class="label" for="">Repouso</label>
                             <div class="control has-icons-left">
-                                <td><input class="input" id="email" name="email" placeholder="Email"
-                                           required th:field="*{email}" type="integer">
+                                <td><input class="input" id="resting_hours" name="resting_hours"
+                                           placeholder="resting_hours"
+                                           required th:field="*{resting_hours}" type="text">
                                     <span class="icon is-small is-left">
                               <i class="fa fa-envelope"></i>
                                 </td>
                                 </span>
                             </div>
                         </div>
+                        <div class="field">
+                            <label class="label" for="">Fracionar repouso</label>
+                            <div class="control has-icons-left">
+                                <td>
+                                    <div class="select" style="width: 100%;">
+                                        <select style="width: 100%;" th:field="*{first_fraction}">
+                                            <option th:each="first_fraction : ${availablefirst_fraction}"
+                                                    th:text="${first_fraction.label}"
+                                                    th:value="${first_fraction}"></option>
+                                        </select>
+                                    </div>
+                                </td>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="field">
+                            <label class="label" for="">Folga</label>
+                            <div class="control has-icons-left">
+                                <td><input class="input" id="time_off" name="time_off"
+                                           placeholder="time_off"
+                                           required th:field="*{time_off}" type="text">
+                                    <span class="icon is-small is-left">
+                              <i class="fa fa-envelope"></i>
+                                </td>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="field">
+                            <label class="label" for="">Fracionar folga</label>
+                            <div class="control has-icons-left">
+                                <td>
+                                    <div class="select" style="width: 100%;">
+                                        <select style="width: 100%;" th:field="*{third_fraction}">
+                                            <option th:each="third_fraction : ${availablethird_fraction}"
+                                                    th:text="${third_fraction.label}"
+                                                    th:value="${third_fraction}"></option>
+                                        </select>
+                                    </div>
+                                </td>
+                                </span>
+                            </div>
+                        </div>
+
 
                         <div class="field" id="savebutton">
                             <button class="button is-success">
@@ -140,6 +162,7 @@
 </body>
 </html>
 
+
 <script
         crossorigin="anonymous"
         integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
@@ -149,20 +172,3 @@
 <script crossorigin="anonymous"
         integrity="sha512-pHVGpX7F/27yZ0ISY+VVjyULApbDlD0/X0rgGbTqCE7WFW5MezNTWG/dnhtbBuICzsd0WQPgpE4REBLv+UqChw=="
         src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"></script>
-
-<script type="text/javascript">
-    $("#telefone").keypress(function () {
-        $("#telefone").mask("9999999999");
-    })
-
-    document.addEventListener('DOMContentLoaded', () => {
-        (document.querySelectorAll('.notification .delete') || []).forEach(($delete) => {
-            var $notification = $delete.parentNode;
-
-            $delete.addEventListener('click', () => {
-                $notification.parentNode.removeChild($notification);
-            });
-        });
-    });
-
-</script>
