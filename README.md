@@ -17,7 +17,7 @@
 # Dev Team
 * Barbara Bidoia Bidetti - PO
 
-     [Barbara-BB: GitHub](https://github.com/Barbara-BB)
+     [Barbara-BB: GitHub](https://github.com/Barbara-BB).
      
      [Barbara Bidetti: Linkedin](https://www.linkedin.com/in/barbara-bidetti-bb910a1b3)
 
